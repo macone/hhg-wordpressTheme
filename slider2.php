@@ -10,7 +10,7 @@
 			<img class="d-block w-100" src="<?php bloginfo('url'); ?>/wp-content/uploads/2011/07/slide-2-w-png.png" alt="Head Hunters Group Slider">
 			<div class="slider-head">
 				<h1>Rekrutujemy na kluczowe stanowiska w obszarze Sales and Marketing</h1>
-				<button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(596); ?>"></a><button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button>
       </div>
 		</div>
 		<div class="carousel-item">

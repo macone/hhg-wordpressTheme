@@ -131,18 +131,12 @@ get_header(); ?>
 			<div class="col-7"><p>od 17 lat obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach: B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</p>
 			</div> 
 			<div class="col-5">
-				<button class='hhg-btn-outline'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button>
-				<button class='hhg-btn-outline'>Rekomendacje <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(596); ?>"><button class='hhg-btn-outline'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button></a>
+				<a href="<?php echo get_permalink(578); ?>"><button class='hhg-btn-outline'>Rekomendacje <i class="fas fa-chevron-right"></i></button></a>
 			</div> 
 		</div>
 	</div>
 
-		<svg class="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-			<polygon class="svg--lg" fill="#F2F2F2" points="0,100 33,0 66,79 100,30 100,100 " />
-		</svg>
-		<svg class="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-			<polygon class="svg--lg" fill="#F2F2F2" points="0,0 0,100 45,0 100,100 100,0 " />
-		</svg>
 </div>
 
 <section>
@@ -156,7 +150,7 @@ get_header(); ?>
 			<div class="col-6 img-box-txt">
 					<h2>Bazy Kandydatów</h2>
 					<p>Posiadamy <b>aktywne, aktualizowane co 3 m-ce bazy kandydatów.</b> Od 4 lat na bieżąco <b>monitorujemy kariery ponad 5000 osób</b>, zajmujących kluczowe stanowiska w obszarze Sprzedaży i Marketingu.<b> W Klubie Poleceń HHG</b> działa kilka tysięcy ekspertów. Nasze oferty pracy są dystrybuowane m.in. przez ich sieć kontaktów zawodowych. </p>
-					<button class="hhg-btn-outline">Bazy HHG <i class="fas fa-chevron-right"></i></button>
+					<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Bazy HHG <i class="fas fa-chevron-right"></i></button></a>
 				</div>
 		</div>
 
@@ -173,7 +167,7 @@ get_header(); ?>
 
 				<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
 				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ut aut autem distinctio consectetur laboriosam. Sunt labore quo nihil, eaque, aut architecto, tenetur hic fugiat earum dolore sed in magnam?</p>
-				<button class="hhg-btn-outline">Czytaj więcej <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Czytaj więcej <i class="fas fa-chevron-right"></i></button></a>
 			</div>
 
 			<div class="col-4 job-offer">
@@ -206,7 +200,7 @@ get_header(); ?>
 		</div>
 		<div class="row" style="margin-top:50px">
 			<div class="col-12">
-				<button style="float:right" class="hhg-btn-outline">Sprawdź pozostałe oferty <i class="fas fa-chevron-right"></i></button>
+			<a href="<?php echo get_permalink(596); ?>"><button style="float:right" class="hhg-btn-outline">Sprawdź pozostałe oferty <i class="fas fa-chevron-right"></i></button></a>
 			</div>
 		</div>
 
@@ -216,7 +210,7 @@ get_header(); ?>
 					<div class="col-6 img-box-txt">
 						<h2>Standardy i Gwarancje</h2>
 						<p>Rekrutujemy wśród <b>aktywnych zawodowo. Badamy referencje </b>kandydatów na 4 poziomach. <b>Opracowujemy poszerzone dossier</b> kandydatów. <b>Co kilka dni raportujemy o postępach</b> projektu. <b>Udzielamy gwarancji </b>bezpieczeństwa Klientom i Kandydatom. <b>Monitorujemy sytuację przez 6 m-cy </b>po zatrudnieniu Kandydata. Dbamy o najwyższą jakość <b>Candidates Experience</b></p>
-						<button class="hhg-btn-outline">Standardy i Gwarancje  <i class="fas fa-chevron-right"></i></button>
+						<a href="<?php echo get_permalink(1961); ?>"><button class="hhg-btn-outline">Standardy i Gwarancje  <i class="fas fa-chevron-right"></i></button></a>
 					</div>
 					<div class="col-6">
 						<div class="img-box">
@@ -291,12 +285,6 @@ get_header(); ?>
 		<a id="slide-rec-next" class="carousel-control-next" href="#recomend" role="button" data-slide="next">
 			<span class="carousel-control-next-icon"></span>
 		</a>
-		<svg class="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-			<polygon class="svg--lg" fill="#F2F2F2" points="0,100 33,0 66,79 100,30 100,100 " />
-		</svg>
-		<svg class="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-			<polygon class="svg--lg" fill="#F2F2F2" points="0,0 0,100 45,0 100,100 100,0 " />
-		</svg>
 	</div>	
 	
 

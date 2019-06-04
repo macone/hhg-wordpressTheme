@@ -2,7 +2,7 @@
 
 /**
 
- * Template Name: Strona z ogłoszeniami
+ * Template Name: Strona z referencjami
 
  */
 

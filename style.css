@@ -615,11 +615,11 @@ svg.bottom {
     align-items: baseline;
 }
 
-.job-offer:first-child {
+.job-offer:nth-child(3n+1){
 	border-right: #0003 solid 1px;
 }
 
-.job-offer:last-child {
+.job-offer:nth-child(3n) {
 	border-left: #0003 solid 1px;
 }
 .job-offer{
@@ -629,6 +629,11 @@ svg.bottom {
 .job-offer button {
 	margin-top:50px;
 	float:right;
+}
+
+.job-offer.mb-5{
+	padding-bottom: 30px;
+	border-bottom: #0003 solid 1px;
 }
 
 .bg-rect{

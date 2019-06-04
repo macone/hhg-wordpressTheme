@@ -21,7 +21,7 @@ get_header(); ?>
           echo '</a>';
           }
         ?>
-				<div class="container flex justify-content-center"> <img src="<?php bloginfo( 'template_url' ); ?>/images/oferty.png" alt="" style="margin-left: 10px" /><br/><br/>	</div>	
+				<div class="container flex justify-content-center"> <img src="<?php bloginfo( 'template_url' ); ?>/images/oferty.png" alt="" style="margin-left: 10px" />	</div>	
 
 <?php
 global $post;
@@ -43,10 +43,7 @@ $myposts = get_posts( $args );
 	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
 ?>
 
-
-
-<div class="col-4 job-offer">
-
+<div class="col-4 job-offer mb-5">
 
 	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
 		<?php the_title(); ?>		</a>

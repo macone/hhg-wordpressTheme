@@ -17,105 +17,138 @@ get_header(); ?>
 
 
 <div id="content">
-
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
     <div id="post-<?php the_ID(); ?>" <?php post_class('page'); ?>>
-
         <?php if(has_post_thumbnail()) {
-
           echo '<a href="'; the_permalink(); echo '">';
-
           echo '<figure class="featured-thumbnail"><span class="img-wrap">'; the_post_thumbnail(); echo '</span></figure>';
-
           echo '</a>';
-
           }
-
         ?>
-
-				<img src="<?php bloginfo( 'template_url' ); ?>/images/oferty.png" alt="" style="margin-left: 10px" /><br/><br/>
+				<div class="container flex justify-content-center"><img src="<?php bloginfo( 'template_url' ); ?>/images/oferty.png" alt="" style="margin-left: 10px" /></div>
 
 				
 
 <?php
-
-
-
 global $post;
-
 $argsa = array('numberposts' => 99, 'orderby' => 'post_date', 'order' => 'ASC', 'post_type' => 'sprzedaz' );
-
 $argsb = array('numberposts' => 99, 'orderby' => 'post_date', 'order' => 'ASC', 'post_type' => 'marketing' );
-
 $argsc = array('numberposts' => 99, 'orderby' => 'post_date', 'order' => 'ASC', 'post_type' => 'inne' );
 
 
-
 $mypostsa = get_posts( $argsa );
-
 $mypostsb = get_posts( $argsb );
-
 $mypostsc = get_posts( $argsc );
-
 ?>
 
-
+	<div class="container mt-5">
+			<div class="row">
 
 <?php foreach( $mypostsa as $post ) :	setup_postdata($post); ?>
-
 <?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true );?>
 
-<div class="grid_4">
+<?php 
+	$dzial = get_post_meta( get_the_ID(), 'dzial', true );
+	$kraj = get_post_meta( get_the_ID(), 'kraj', true );
+	$lokalizacja = get_post_meta( get_the_ID(), 'lokalizacja', true );
+	$podleglyzespol = get_post_meta( get_the_ID(), 'podlegly_zespol', true );
+	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
+?>
+<div class="col-4 job-offer mb-5">
 
-	<p style="border-bottom: 1px solid lightgray; background-color: #F3F3F4; padding-left: 10px; min-height: 65px"><a href="<?php the_permalink(); ?>" style="text-decoration: none; font-size: 14px"><strong><?php the_title(); ?></strong></a><br/><span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data; ?></span></p><div style="min-height: 189px"><?php echo $wypis; ?></div><p style="text-align: right"><a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray"><img src="<?php echo get_template_directory_uri(); ?>/images/oferta_more.png" alt="" /></a></p>
-
-	</div>
-
+	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
+		<?php the_title(); ?>		</a>
+	</h3>
+	<p class="">
+		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+	</p>
+	<p>Dział: <strong><?php echo $dzial; ?></strong></p>
+	<p>Raportuje do: <strong><?php echo $raportujedo; ?></strong></p>
+	<p>Podległy zespół: <strong><?php echo $podleglyzespol; ?></strong></p>
+	<p>Lokalizacja: <strong><?php echo $lokalizacja; ?></strong></p>
+	<p>Kraj: <strong><?php echo $kraj; ?></strong></p>
+	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+	<p style="min-height: 189px"><?php echo $wypis; ?></p>
+	<p style="text-align: right">
+		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
+			<button class="pl hhg-btn-outline">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
+			<button class="en hhg-btn-outline">Go to offer<i class="fas fa-chevron-right"></i></button>
+		</a>
+	</p>
 	
-
+</div>
+	<?php endforeach; ?>
 	
-
-
-
-<?php endforeach; ?>
-
-
 
 <?php foreach( $mypostsb as $post ) :	setup_postdata($post); ?>
-
 <?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true );?>
 
-<div class="grid_4">
+<?php 
+	$dzial = get_post_meta( get_the_ID(), 'dzial', true );
+	$kraj = get_post_meta( get_the_ID(), 'kraj', true );
+	$lokalizacja = get_post_meta( get_the_ID(), 'lokalizacja', true );
+	$podleglyzespol = get_post_meta( get_the_ID(), 'podlegly_zespol', true );
+	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
+?>
+<div class="col-4 job-offer mb-5">
 
-	<p style="border-bottom: 1px solid lightgray; background-color: #F3F3F4; padding-left: 10px; min-height: 65px"><a href="<?php the_permalink(); ?>" style="text-decoration: none; font-size: 14px"><strong><?php the_title(); ?></strong></a><br/><span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data; ?></span></p><div style="min-height: 189px"><?php echo $wypis; ?></div><p style="text-align: right"><a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray"><img src="<?php echo get_template_directory_uri(); ?>/images/oferta_more.png" alt="" /></a></p>
-
-	</div>
-
+	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
+		<?php the_title(); ?>		</a>
+	</h3>
+	<p class="">
+		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+	</p>
+	<p>Dział: <strong><?php echo $dzial; ?></strong></p>
+	<p>Raportuje do: <strong><?php echo $raportujedo; ?></strong></p>
+	<p>Podległy zespół: <strong><?php echo $podleglyzespol; ?></strong></p>
+	<p>Lokalizacja: <strong><?php echo $lokalizacja; ?></strong></p>
+	<p>Kraj: <strong><?php echo $kraj; ?></strong></p>
+	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+	<p style="min-height: 189px"><?php echo $wypis; ?></p>
+	<p style="text-align: right">
+		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
+			<button class="pl hhg-btn-outline">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
+			<button class="en hhg-btn-outline">Go to offer<i class="fas fa-chevron-right"></i></button>
+		</a>
+	</p>
 	
-
-	
-
-
+</div>
 
 <?php endforeach; ?>
 
 <?php foreach( $mypostsc as $post ) :	setup_postdata($post); ?>
-
 <?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true );?>
 
-<div class="grid_4">
+<?php 
+	$dzial = get_post_meta( get_the_ID(), 'dzial', true );
+	$kraj = get_post_meta( get_the_ID(), 'kraj', true );
+	$lokalizacja = get_post_meta( get_the_ID(), 'lokalizacja', true );
+	$podleglyzespol = get_post_meta( get_the_ID(), 'podlegly_zespol', true );
+	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
+?>
+<div class="col-4 job-offer mb-5">
 
-	<p style="border-bottom: 1px solid lightgray; background-color: #F3F3F4; padding-left: 10px; min-height: 65px"><a href="<?php the_permalink(); ?>" style="text-decoration: none; font-size: 14px"><strong><?php the_title(); ?></strong></a><br/><span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data; ?></span></p><div style="min-height: 189px"><?php echo $wypis; ?></div><p style="text-align: right"><a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray"><img src="<?php echo get_template_directory_uri(); ?>/images/oferta_more.png" alt="" /></a></p>
-
-	</div>
-
+	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
+		<?php the_title(); ?>		</a>
+	</h3>
+	<p class="">
+		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+	</p>
+	<p>Dział: <strong><?php echo $dzial; ?></strong></p>
+	<p>Raportuje do: <strong><?php echo $raportujedo; ?></strong></p>
+	<p>Podległy zespół: <strong><?php echo $podleglyzespol; ?></strong></p>
+	<p>Lokalizacja: <strong><?php echo $lokalizacja; ?></strong></p>
+	<p>Kraj: <strong><?php echo $kraj; ?></strong></p>
+	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+	<p style="min-height: 189px"><?php echo $wypis; ?></p>
+	<p style="text-align: right">
+		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
+			<button class="pl hhg-btn-outline">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
+			<button class="en hhg-btn-outline">Go to offer<i class="fas fa-chevron-right"></i></button>
+		</a>
+	</p>
 	
-
-	
-
-
-
+</div>
 <?php endforeach; ?>
 
 </div>
