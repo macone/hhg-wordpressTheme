@@ -47,34 +47,34 @@ get_header(); ?>
 						<div class="recomend-logo">
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/meadwest.png">
 								</div>
 							</div>
 
 							<div class="col-md-2 mb-2">
 									<div class="card">
-										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/nivea-logo-B71F28064C-seeklogo.com_.png">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Siemens-logo-transparent-png.png">
 									</div>
 							</div>
 
 							<div class="col-md-2 mb-2">
 									<div class="card">
-										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/tetley-logo-png-transparent.png">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/solvay-pharma-1.png">	
 									</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Siemens-logo-transparent-png.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/Varta-Logo.svg_-e1557960963372.png">
 								</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/kisspng-otis-elevator-company-logo-escalator-nippon-otis-e-escalator-5abd8850bd7ca0.9857862015223706407762-e1543168854782.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l7.png">
 								</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/126-1268919_colgate-palmolive-company-as-part-of-its-strategy.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l4.png">
 								</div>
 							</div>
 						</div>
@@ -87,34 +87,34 @@ get_header(); ?>
 						<div class="recomend-logo">
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l12.png">
 								</div>
 							</div>
 	
 							<div class="col-md-2 mb-2">
 									<div class="card">
-										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/nivea-logo-B71F28064C-seeklogo.com_.png">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l9.png">
 									</div>
 							</div>
 	
 							<div class="col-md-2 mb-2">
 									<div class="card">
-										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l10.png">
 									</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/IQ-MArketing-e1557961391281.jpg">
 								</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/nivea-logo-B71F28064C-seeklogo.com_.png">
 								</div>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">	
 								</div>
 							</div>
 						</div>
@@ -132,7 +132,7 @@ get_header(); ?>
 			</div> 
 			<div class="col-5">
 				<a href="<?php echo get_permalink(596); ?>"><button class='hhg-btn-outline'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button></a>
-				<a href="<?php echo get_permalink(578); ?>"><button class='hhg-btn-outline'>Rekomendacje <i class="fas fa-chevron-right"></i></button></a>
+				<a href="<?php echo get_permalink(578); ?>"><button class='mt-1 hhg-btn-outline'>Rekomendacje <i class="fas fa-chevron-right"></i></button></a>
 			</div> 
 		</div>
 	</div>
@@ -153,52 +153,53 @@ get_header(); ?>
 					<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Bazy HHG <i class="fas fa-chevron-right"></i></button></a>
 				</div>
 		</div>
+<?php
+global $post;
+$argsa = array('numberposts' => 3, 'orderby' => 'rand', 'order' => 'ASC', 'post_type' => array('sprzedaz','marketing','inne'));
 
-		<div class="row" style="margin-top:150px">
-			
-			<div class="col-4 job-offer">
-				<h3 class="bg-rect">Key Account Menadżer</h3>
-				<p>nr ref KAM/12/2</p>
-				<p>Dział:<strong>Dział Sprzedaży</strong></p>
-				<p>Raportuje do: <strong>Dyrektora Sprzedaży</strong></p>
-				<p>Podległy zespół: <strong>Stanowisko Samodzielne</strong></p>
-				<p>Lokalizacja: <strong>Polska Zachodnia, Poznań, Wrocław</strong></p>
-				<p>Kraj: <strong>Polska</strong></p>
+$mypostsa = get_posts( $argsa );
 
-				<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ut aut autem distinctio consectetur laboriosam. Sunt labore quo nihil, eaque, aut architecto, tenetur hic fugiat earum dolore sed in magnam?</p>
-				<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Czytaj więcej <i class="fas fa-chevron-right"></i></button></a>
-			</div>
+?>
 
-			<div class="col-4 job-offer">
-				<h3 class="bg-rect">Key Account Menadżer</h3>
-				<p>nr ref KAM/12/2</p>
-				<p>Dział:<strong>Dział Sprzedaży</strong></p>
-				<p>Raportuje do: <strong>Dyrektora Sprzedaży</strong></p>
-				<p>Podległy zespół: <strong>Stanowisko Samodzielne</strong></p>
-				<p>Lokalizacja: <strong>Polska Zachodnia, Poznań, Wrocław</strong></p>
-				<p>Kraj: <strong>Polska</strong></p>
+<div class="container mt">
+			<div class="row">
 
-				<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ut aut autem distinctio consectetur laboriosam. Sunt labore quo nihil, eaque, aut architecto, tenetur hic fugiat earum dolore sed in magnam?</p>
-				<button class="hhg-btn-outline">Czytaj więcej <i class="fas fa-chevron-right"></i></button>
-			</div>
+<?php foreach( $mypostsa as $post ) :	setup_postdata($post); ?>
+<?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true );?>
 
-			<div class="col-4 job-offer">
-				<h3 class="bg-rect">Key Account Menadżer</h3>
-				<p>nr ref KAM/12/2</p>
-				<p>Dział:<strong>Dział Sprzedaży</strong></p>
-				<p>Raportuje do: <strong>Dyrektora Sprzedaży</strong></p>
-				<p>Podległy zespół: <strong>Stanowisko Samodzielne</strong></p>
-				<p>Lokalizacja: <strong>Polska Zachodnia, Poznań, Wrocław</strong></p>
-				<p>Kraj: <strong>Polska</strong></p>
-				<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ut aut autem distinctio consectetur laboriosam. Sunt labore quo nihil, eaque, aut architecto, tenetur hic fugiat earum dolore sed in magnam?</p>
-				<button class="hhg-btn-outline">Czytaj więcej <i class="fas fa-chevron-right"></i></button>
-			</div>
+<?php 
+	$dzial = get_post_meta( get_the_ID(), 'dzial', true );
+	$kraj = get_post_meta( get_the_ID(), 'kraj', true );
+	$lokalizacja = get_post_meta( get_the_ID(), 'lokalizacja', true );
+	$podleglyzespol = get_post_meta( get_the_ID(), 'podlegly_zespol', true );
+	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
+?>
+<div class="col-4 job-offer mb-5">
 
-		</div>
-		<div class="row" style="margin-top:50px">
+	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
+		<?php the_title(); ?>		</a>
+	</h3>
+	<p class="">
+		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+	</p>
+	<p>Dział: <strong><?php echo $dzial; ?></strong></p>
+	<p>Raportuje do: <strong><?php echo $raportujedo; ?></strong></p>
+	<p>Podległy zespół: <strong><?php echo $podleglyzespol; ?></strong></p>
+	<p>Lokalizacja: <strong><?php echo $lokalizacja; ?></strong></p>
+	<p>Kraj: <strong><?php echo $kraj; ?></strong></p>
+	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+	<p style="min-height: 189px"><?php echo $wypis; ?></p>
+	<p style="text-align: right">
+		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
+			<button class="pl hhg-btn-outline">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
+			<button class="en hhg-btn-outline">Go to offer<i class="fas fa-chevron-right"></i></button>
+		</a>
+	</p>
+	
+</div>
+	<?php endforeach; ?>
+	<div class="container mt-1">
+		<div class="row">
 			<div class="col-12">
 			<a href="<?php echo get_permalink(596); ?>"><button style="float:right" class="hhg-btn-outline">Sprawdź pozostałe oferty <i class="fas fa-chevron-right"></i></button></a>
 			</div>

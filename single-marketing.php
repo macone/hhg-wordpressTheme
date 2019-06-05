@@ -2,16 +2,14 @@
 /**
  * Template Name: Pojedyncze ogloszenie: marketing
  */
-
-
 get_header(); ?>
 <p>&nbsp;</p>
-<div id="content" class="grid_8 <?php echo of_get_option('blog_sidebar_pos') ?>">
+<div id="content" class="container <?php echo of_get_option('blog_sidebar_pos') ?>">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
-      <article class="single-post">
+      <article class="job-offer-single">
         <header>
-          <h2 style="text-align:right; color: #9F6233 !important"><?php the_title(); ?></h2>
+          <h2 style="text-align:center;"><?php the_title(); ?></h2>
         </header>
         <?php $single_image_size = of_get_option('single_image_size'); ?>
 				<?php if($single_image_size=='' || $single_image_size=='normal'){ ?>
@@ -63,7 +61,11 @@ get_header(); ?>
 		$wykniez = get_post_meta( get_the_ID(), 'wyksztalcenieniezbedne', true );
 		$wykpoz = get_post_meta( get_the_ID(), 'wyksztalceniepozadane', true );
 		$dosniez = get_post_meta( get_the_ID(), 'doswiadczenieniezbedne', true );
-		$dospoz = get_post_meta( get_the_ID(), 'doswiadczeniepozadane', true );		/* Nowe pole 15.07.2013 */		$inne_niezbedne = get_post_meta( get_the_ID(), 'inneniezbedne', true );		$inne_pozadane = get_post_meta( get_the_ID(), 'pozadaneinne', true );		/* KONIEC 15.07.2013 */
+		$dospoz = get_post_meta( get_the_ID(), 'doswiadczeniepozadane', true );
+		/* Nowe pole 15.07.2013 */
+		$inne_niezbedne = get_post_meta( get_the_ID(), 'inneniezbedne', true );
+		$inne_pozadane = get_post_meta( get_the_ID(), 'pozadaneinne', true );
+		/* KONIEC 15.07.2013 */
 		/*$ilosckompetencji = get_post_meta( get_the_ID(), 'ilosc_kompetencji', true );*/
 		/*kompetencje*/
 		$kompetencje = get_post_meta( get_the_ID(), 'kompetencje', true );
@@ -101,25 +103,25 @@ get_header(); ?>
 		$komp5 = get_post_meta( get_the_ID(), 'kompetencje_5', true );
 		$komp5ocena = get_post_meta( get_the_ID(), 'kompetencje_5_ocena', true );*/
 		
-		echo '<p style="text-align:right; margin-top:-15px; color:gray; margin-bottom: 6px">'.$lista_branz.'Nr Ref. '.$nrref.'</p>';
-		echo '<h3 style="color: #9F6233">Informacje podstawowe dotyczące firmy:</h3>'.$compdesc.'<div class="hr" style="margin: 7px"></div>';
-		echo '<table>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Nazwa stanowiska:</strong></td><td valign="top" ><strong>'.$stanowisko.'</td></tr>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Dział:</strong></td><td valign="top" ><strong>'.$dzial.'</strong></td></tr>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Raportuje do:</strong></td><td valign="top" ><strong>'.$raportujedo.'</strong></td></tr>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Podległy zespół:</strong></td><td valign="top" ><strong>'.$podleglyzespol.'</strong></td></tr>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Lokalizacja:</strong></td><td valign="top" ><strong>'.$lokalizacja.'</strong></td></tr>';
-		echo '<tr><td valign="top"  style="width: 167px; color: #9F6233"><strong>Kraj:</strong></td><td valign="top" ><strong>'.$kraj.'</strong></td></tr>';
-		echo '</table><div class="hr" style="margin: 7px"></div>';
-		echo '<h3 style="color: #9F6233">Cel stanowiska:</h3>'.$celstanowiska;
-		echo '<br/><br/><h3 style="color: #9F6233">Główny zakres odpowiedzialności:</h3>';
+		echo '<p class="ref-num">'.$lista_branz.'Nr Ref. '.$nrref.'</p>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Informacje podstawowe dotyczące firmy:</h3></div><div class="col-7">'.$compdesc.'</div></div>';
+		echo '<div class="row justify-content-center"><div class="col-8 mt-5"><table>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Nazwa stanowiska:</td><td valign="top" ><strong>'.$stanowisko.'</td></tr>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Dział:</td><td valign="top" ><strong>'.$dzial.'</strong></td></tr>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Raportuje do:</td><td valign="top" ><strong>'.$raportujedo.'</strong></td></tr>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Podległy zespół:</td><td valign="top" ><strong>'.$podleglyzespol.'</strong></td></tr>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Lokalizacja:</td><td valign="top" ><strong>'.$lokalizacja.'</strong></td></tr>';
+		echo '<tr><td valign="top"  style="width: 167px;  ">Kraj:</td><td valign="top" ><strong>'.$kraj.'</strong></td></tr>';
+		echo '</table></div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Cel stanowiska:</h3></div><div class="col-7">'.$celstanowiska.'</div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Główny zakres odpowiedzialności:</h3></div><div class="col-7">';
 		echo '<ul>';
 		foreach ($zakresodparray as $zakrodp)
 		{
 			echo '<li>'.$zakrodp.'</li>';
 		}
-		echo '</ul>';
-		echo '<h3 style="color: #9F6233">Oczekiwane wyniki i główne wskaźniki efektywności</h3>';
+		echo '</ul></div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Oczekiwane wyniki i główne wskaźniki efektywności</h3></div><div class="col-7">';
 		echo '<ul>';
 		if(count($owiwarray)<=1) echo $owiw; else {
 		foreach ($owiwarray as $ow)
@@ -127,16 +129,23 @@ get_header(); ?>
 			echo '<li>'.$ow.'</li>';
 		}
 		}
-		echo '</ul>';
-		echo '<h3 style="color: #9F6233">Informacje uzupełniające</h3>';
-		echo '<table cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Doświadczenie zawodowe</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
+		echo '</ul></div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Informacje uzupełniające</h3></div>';
+		echo '<div class="col-7"><table cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Doświadczenie zawodowe</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
 		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$dosniez.'</td><td valign="top" >'.$dospoz.'</td></tr>';
-		echo '</table><br/><br/>';
-		echo '<table cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Wykształcenie</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
+		echo '</table>';
+		echo '<table class="mt-3" cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Wykształcenie</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
 		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$wykniez.'</td><td valign="top" >'.$wykpoz.'</td></tr>';
-		echo '</table><br/><br/>';		/* Inne umiejętności */		echo '<table cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Inne umiejętności</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$inne_niezbedne.'</td><td valign="top" >'.$inne_pozadane.'</td></tr>';		echo '</table><br/><br/>';		/* END Inne */
-		echo'<h3 style="color: #9F6233">Kompetencje</h3>';
-		echo '<table cellpadding=5><tr><td valign="top"  style="width:165px"></td><td valign="top"  style="color: #9F6233; text-align:center">Wybitny (5)</td><td valign="top"  style="color: #9F6233; text-align:center">Doskonały (4)</td><td valign="top"  style="color: #9F6233; text-align:center">Dobry (3)</td><td valign="top"  style="color: #9F6233; text-align:center">Uczący się (2)</td><td valign="top"  style="color: #9F6233; text-align:center">Brak (1)</td></tr>';
+		echo '</table>';
+		/* Inne umiejętności */
+		echo '<table class="mt-3" cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Inne umiejętności</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
+
+		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$inne_niezbedne.'</td><td valign="top" >'.$inne_pozadane.'</td></tr>';
+
+		echo '</table></div></div>';
+		/* END Inne */
+		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Kompetencje</h3></div>';
+		echo '<div class="col-7"><table cellpadding=5><tr><td valign="top"  style="width:165px"></td><td valign="top"  style=" text-align:center">Wybitny (5)</td><td valign="top"  style=" text-align:center">Doskonały (4)</td><td valign="top"  style=" text-align:center">Dobry (3)</td><td valign="top"  style=" text-align:center">Uczący się (2)</td><td valign="top"  style=" text-align:center">Brak (1)</td></tr>';
 		for($k=0;$k<$ilosckompetencji;$k++) {
 		echo '<tr style="border-bottom: 1px solid #9F6233"><td valign="top" >'.$kompetencja[$k].'</td>';
 		check_comp($kompetencjaocena[$k]);
@@ -151,28 +160,16 @@ get_header(); ?>
 		check_comp($komp4ocena);
 		echo '<tr style="border-bottom: 1px solid #9F6233"><td valign="top" >'.$komp5.'</td>';
 		check_comp($komp5ocena);*/
-		echo '</table><br/><br/>';
-		echo'<h3 style="color: #9F6233">Warunki zatrudnienia</h3>';
-		echo '<table cellpadding=5>';
+		echo '</table></div></div>';
+		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Warunki zatrudnienia</h3></div>';
+		echo '<div class="col-7"><table cellpadding=5>';
 		for($l=0; $l<$iloscwarunkow; $l++)
 		echo '<tr><td valign="top"  style="width:157px"><strong>'.$warunek[$l].'</strong></td><td valign="top"  style="padding-left: 20px">'.$warunekuwaga[$l].'</td></tr>';
-		echo '</table>';
+		echo '</table></div></div>';
 		?>
 		
-		<div class="hr" style="margin: 7px"></div>
 		
-		
-		<style type="text/css">
-.auto-style1 {
-	text-align: left;
-}
-.auto-style2 {
-	text-align: center;
-}
-</style>
-
-
-
+		<div class="row justify-content-center mt-5"><div class="col-10 ">
 <p class="auto-style1">Kandydatów zainteresowanych ofertą prosimy o przesłanie życiorysu  wraz z listem motywacyjnym z zaznaczeniem numeru referencyjnego, na adres:</p>
 <p class="auto-style2">HEADHUNTERS GROUP<br>
   sales &amp; marketing recruitment<br>
@@ -180,7 +177,7 @@ get_header(); ?>
   01-637 Warszawa<br>
   e-mail:&nbsp;<a href="mailto:biuro@hhg.pl?subject=CDAPMgr_01/2018">biuro@hhg.pl</a><br>
   <a href="http://www.hhg.pl/">www.hhg.pl</a> </p>
-<p class="auto-style1"><strong><span style="color:red">Zanim zgłosisz swój udział w rekrutacji,  pamiętaj! </span></strong></p>
+<h3 style="color:red">Zanim zgłosisz swój udział w rekrutacji,  pamiętaj! </h3>
 <p><strong>W dokumentach aplikacyjnych, które zechcesz  nam przekazać w odpowiedzi na to ogłoszenie, znajdują się Twoje dane osobowe.  Abyśmy mogli z tych informacji skorzystać i rozważyć Twoją kandydaturę na tę  ofertę zatrudnienia potrzebujemy Twojej zgody na przetwarzanie danych osobowych. </strong></p>
 <p><strong><u>Zgodę tę możesz w każdej chwili wycofać, co  nie wpłynie na zgodność z prawem przetwarzania, jakiego dokonaliśmy na jej  podstawie zanim ją wycofałeś.  </u></strong></p>
 <p>Zgodę  należy zamieścić w każdym przesyłanym do nas dokumencie aplikacyjnym (tj.  zarówno w CV, jak i w Liście motywacyjnym oraz w każdym innym dokumencie, który  zechcesz nam przekazać w odpowiedzi na to ogłoszenie o pracę). Treść zgody: </p>
@@ -229,7 +226,8 @@ get_header(); ?>
 <p>Twoje dane osobowe nie będą podlegały automatycznemu podejmowaniu decyzji,  w tym profilowaniu. </p>
 
 
-      </article>
+
+      </article>
 
         
 
@@ -238,21 +236,23 @@ get_header(); ?>
 
     </div><!-- #post-## -->
     
-    
-    <nav class="oldernewer">
-      <div class="older">
-        <?php previous_post_link('%link', '&laquo; Poprzednia oferta') ?>
-      </div><!--.older-->
-      <div class="newer">
-        <?php next_post_link('%link', 'Następna oferta &raquo;') ?>
-      </div><!--.newer-->
-    </nav><!--.oldernewer-->
-
+    <div class="row justify-content-center mt-5">
+			<div class="col-10 tr">
+				<nav class="oldernewer">
+					<div class="older">
+						<?php previous_post_link('%link', '&laquo; Poprzednia oferta') ?>
+					</div><!--.older-->
+					<div class="newer">
+						<?php next_post_link('%link', 'Następna oferta &raquo;') ?>
+					</div><!--.newer-->
+				</nav><!--.oldernewer-->
+			</div>
+		</div>
 
   <?php endwhile; /* end loop */ ?>
   
 </div><!--#content-->
 
-<?php get_sidebar(); ?>
+<!-- <?php get_sidebar(); ?> -->
 
 <?php get_footer(); ?>

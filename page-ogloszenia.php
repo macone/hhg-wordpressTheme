@@ -39,6 +39,7 @@ $argsc = array('numberposts' => 99, 'orderby' => 'post_date', 'order' => 'ASC', 
 $mypostsa = get_posts( $argsa );
 $mypostsb = get_posts( $argsb );
 $mypostsc = get_posts( $argsc );
+
 ?>
 
 	<div class="container mt-5">

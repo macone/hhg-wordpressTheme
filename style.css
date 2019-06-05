@@ -24,7 +24,7 @@ html body {
 }
 
 p {
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 h2{
@@ -49,6 +49,10 @@ h3 {
 
 .flex {
 	display: flex;
+}
+
+.tr {
+	text-align: right;
 }
 
 /* timeline
@@ -571,6 +575,7 @@ svg.bottom {
 .recomend-logo img{
 	object-fit: contain;
 	height: 100%;
+	mix-blend-mode: multiply;
 }
 
 
@@ -581,6 +586,29 @@ svg.bottom {
 	margin-bottom: 35px;
 	max-width:250px;
 }
+
+/* single job offer
+---------------------------------------- */
+
+.ref-num {
+	text-align:center; 
+	margin-top:-15px; 
+	color:gray; 
+	margin-bottom: 6px
+}
+
+
+.job-offer-single table {
+	margin:auto
+}
+
+.auto-style1 {
+	text-align: left;
+}
+.auto-style2 {
+	text-align: center;
+}
+
 
 /* article
 ---------------------------------------- */
@@ -1270,26 +1298,6 @@ h3#comments {
 	}
 
 
-article {
-	margin-bottom:32px;
-	width:100%;
-	overflow:hidden;
-	position:relative;
-	}
-article.type-post .featured-thumbnail {
-	margin-bottom:0;
-}	
-
-/* Post header */
-article header h2 {
-	margin-bottom:.5em;
-	}
-article.single-post {
-	margin-bottom:30px;
-	overflow:hidden;
-	width:100%;
-	}
-
 /* Featured thumbnail */
 .featured-thumbnail {
 	float:left;
@@ -1737,12 +1745,6 @@ nav.oldernewer {
 				font-size:11px;
 				color:#999;
 				}
-	#gallery.one_column .portfolio li .hr {
-		margin:0 0 50px 0;
-		}
-	#gallery.one_column .portfolio li:first-child .hr {
-		display:none;
-		}
 
 
 /* 2 columns portfolio*/
@@ -2529,10 +2531,6 @@ blockquote.testi-single {
 	height:95px;
 	overflow:hidden;
 }
-	#footer .hr {
-		margin-top:0;
-		margin-bottom:0;
-	}
 	
 	#footer .site-name {
 		font-size:28px;
@@ -2822,19 +2820,6 @@ blockquote.testi-single {
 .widget-area {
 	
 }
-
-.hr {
-	height:2px;
-	background:url(images/hr.gif) repeat-x left top;
-	overflow:hidden;
-	font-size:0;
-	line-height:0;
-	margin:30px 10px;
-	}
-.grid_1 .hr, .grid_2 .hr, .grid_3 .hr, .grid_4 .hr, .grid_5 .hr, .grid_6 .hr, .grid_7 .hr, .grid_8 .hr, .grid_9 .hr, .grid_10 .hr, .grid_11 .hr, .grid_12 .hr, .grid_13 .hr, .grid_14 .hr, .grid_15 .hr, .grid_16 .hr, .grid_17 .hr, .grid_18 .hr, .grid_19 .hr, .grid_20 .hr, .grid_21 .hr, .grid_22 .hr, .grid_23 .hr, .grid_24 .hr {
-	margin-left:0;
-	margin-right:0;
-	} 
 
 /* Address */
 .address {

@@ -10,14 +10,14 @@
 			<img class="d-block w-100" src="<?php bloginfo('url'); ?>/wp-content/uploads/2011/07/slide-2-w-png.png" alt="Head Hunters Group Slider">
 			<div class="slider-head">
 				<h1>Rekrutujemy na kluczowe stanowiska w obszarze Sales and Marketing</h1>
-				<a href="<?php echo get_permalink(596); ?>"></a><button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(596); ?>"><button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button></a>
       </div>
 		</div>
 		<div class="carousel-item">
 			<img class="d-block w-100" src="<?php bloginfo('url'); ?>/wp-content/uploads/2011/07/slide-1-loga-w-kontrze.png" alt="Head Hunters Group Slider">
 			<div class="slider-head">
 				<h1>Rekomendują nas:</h1>
-				<button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(578); ?>"><button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button></a>
       </div>
 			
 		</div>
@@ -26,7 +26,7 @@
 			<div class="slider-head">
 				<h1>Specjalizujemy się w sektorach:</h1>
 				<h4 style="color:black">B2B | BUILDING&CONSTRUCTION | REKLAMA&MEDIA | RTV/AGD | FARMACJA | PACKAGING | FMCG </h4>
-				<button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(5); ?>"><button class="hhg-btn-solid">Zobacz sam <i class="fas fa-chevron-right"></i></button></a>
       </div>
 			
 		</div>
