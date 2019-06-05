@@ -3,7 +3,6 @@
  * Template Name: Pojedyncze ogloszenie: marketing
  */
 get_header(); ?>
-<p>&nbsp;</p>
 <div id="content" class="container <?php echo of_get_option('blog_sidebar_pos') ?>">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
