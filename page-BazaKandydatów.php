@@ -21,12 +21,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_referencje.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Bazy HHG</h2>
 						<p>W bazach HEADHUNTERS GROUP znajduje się ponad 16 000 ekspertów Sprzedaży i Marketingu. </p>
 					<ul>
@@ -41,7 +41,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" >
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Aktualizujemy nasze bazy na bieżąco. </h2>
 				<p>Wiemy, jacy Kandydaci są obecnie dostępni w sektorach:</p>
 				<ul>
@@ -51,7 +51,7 @@ get_header(); ?>
 						<li>E-Commerce</li>
 				</ul>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/black-lady-recruitment.png" class= "img-box-image" alt="">
 				</div>
@@ -63,12 +63,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/POST-6.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>SPRZEDAŻY</h2>
 					<ul>
 						<li>E-commerce Manager </li>
@@ -88,7 +88,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>MARKETINGU </h2>
 				<ul>
 						<li>Digital Marketing Manager  </li>
@@ -100,7 +100,7 @@ get_header(); ?>
 						<li>Marketing Director</li>
 					</ul>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Depositphotos_171926932_xl-2015-1.jpg" class= "img-box-image" alt="">
 				</div>
@@ -112,12 +112,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720-rozwiązania-Headhunters-e1557095702737.png" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>ANALITYKI SPRZEDAŻY/MARKETINGU</h2>
 					<ul>
 						<li>Dyrektor Działu Analiz</li>
