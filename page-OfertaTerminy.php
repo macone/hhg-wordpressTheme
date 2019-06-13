@@ -22,12 +22,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row ">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/KAM.png" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Executive Search </h2>
 					<p>Dotrzemy do kandydatów pracujących w firmach konkurencyjnych lub biznesach pokrewnych. Sprawdzimy ich dostępność, kompetencje, profil psychologiczny i referencje.</p>
 					<ul>
@@ -41,7 +41,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Target Search </h2>
 				<p>Sprawdzimy Kandydatów, którzy aktualnie pracują w firmach, wskazanych przez Klienta (metodologia rekomendowana dla maksymalnie 15 firm). </p>
 				<ul>
@@ -49,7 +49,7 @@ get_header(); ?>
 						<li>Okres gwarancji: 6 m-cy. </li>
 				</ul>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720-o-nas-1.jpg" class= "img-box-image" alt="">
 				</div>
@@ -59,12 +59,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row  mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_bazy-hhg.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Wykorzystanie Baz HHG</h2>
 					<p>Wyselekcjonujemy z baz HHG Kandydatów odpowiadających potrzebom Klienta, przeprowadzimy ponowne spotkania z wybranymi Kandydatami i dostarczymy Klientowi dossier rekomendowanych osób. </p>
 					<ul>
@@ -79,7 +79,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Weryfikacja Referencji </h2>
 				<p>Badamy referencje Kandydatów na 4 poziomach: </p>
 				<ol>
@@ -89,7 +89,7 @@ get_header(); ?>
 					<li>Klient zewnętrzny</li>
 				</ol>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_BABAKA-Z-TELEFONEM.jpg" class= "img-box-image" alt="">
 				</div>
@@ -99,12 +99,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_Executive-Search.png" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Selekcja </h2>
 					<ul>
 						<li>..........</li>
@@ -116,7 +116,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Badania Rynku </h2>
 				<p>Badamy przede wszystkim dostępność Kandydatów pracujących w Twojej branży:  </p>
 				<ul>
@@ -145,7 +145,7 @@ Badamy także profil Kandydatów zainteresowanych zmianą pracy:   </p>
 
 				<p>W ciągu 3 do 6 tygodni (w zależności od stopnia skomplikowania i wielkości badanej grupy) otrzymasz raport z wyników badań, wraz z analizą i wnioskami. </p>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_1.png" class= "img-box-image" alt="">
 				</div>

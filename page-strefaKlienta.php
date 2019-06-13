@@ -22,12 +22,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/creative-business-people-working-on-business-NUVCFPK.resized.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Badamy referencje Kandydata na 4 poziomach</h2>
 					<ul>
 						<li>Przełożony</li>
@@ -43,7 +43,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Przedstawiamy poszerzone dossier, obejmujące: </h2>
 				<ul>
 						<li>profil psychologiczny</li>
@@ -55,7 +55,7 @@ get_header(); ?>
 				</ul>
 				<a href="<?php echo get_permalink(1918); ?>"><button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_1.png" class= "img-box-image" alt="">
 				</div>
@@ -65,12 +65,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/corporate-teamworking-colleagues-in-modern-office-3X4LGFE.resized.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Raportujemy Klientom na bieżąco</h2>
 					<ul>
 						<li>Co tydzień: raport </li>
@@ -85,14 +85,14 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Udzielamy gwarancji Klientom i Kandydatom </h2>
 				<ul>
 						<p>W ciągu pierwszych 6-ciu miesięcy od zatrudnienia Kandydata rekomendowanego przez HHG, Klient ma prawo zlecić nam bezpłatne przeprowadzenie ponownej rekrutacji na to stanowisko. Również Kandydatom gwarantujemy, że jeśli z przyczyn niezależnych od nich samych rozwiążą współpracę z Klientem w okresie gwarancji, pomożemy im znaleźć nowe zatrudnienie. </p>
 				</ul>
 				<a href="<?php echo get_permalink(1918); ?>"><button class="hhg-btn-outline">Więcej  <i class="fas fa-chevron-right"></i></button></a>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_1.png" class= "img-box-image" alt="">
 				</div>
@@ -104,12 +104,12 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/attractive-girl-with-a-notepad-PEY4PFG.resized.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Dbamy o jakość Candidates Experience</h2>
 					<ul>
 						<li>Wszyscy kandydaci otrzymują informację zwrotn</li>

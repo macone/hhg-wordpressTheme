@@ -24,12 +24,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/creative-business-people-working-on-business-NUVCFPK.resized.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Klub HHG </h2>
 					<p>Klub HHG zrzesza ponad 3000 osób aktywnych zawodowo, zajmujących kluczowe stanowiska w obszarze marketingu i sprzedaży (w kanałach tradycyjnych i e-commerce). To oni dowiadują się pierwsi o nowych rekrutacjach. Jeżeli chcesz do nich dołączyć, prześlij nam swoje zgłoszenie. Zweryfikujemy je w ciągu 7 dni.   
 					</p>

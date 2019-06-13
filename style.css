@@ -239,10 +239,17 @@ body.home #slider-wrapper {
 	position:absolute;
 	max-width:1680px;
 	max-height:520px;
-	left:50%;
-	margin-left:-840px;
-	background-repeat:no-repeat;
-	background-position:50% 50%;
+	width:100%;
+	height:100%;
+}
+#slider img {
+	width: 100%!important;
+	object-fit: cover;
+	height: 100%;
+}
+
+#slider .carousel-item, #slider .carousel-inner {
+	height: 100%;
 }
 
 .slider-head {
@@ -704,7 +711,7 @@ svg.bottom {
 
 }
 #logo{
-  margin: auto;
+  /* margin: auto; */
 }
 #logo > img {
   width:80%;
@@ -715,6 +722,8 @@ ul#menu-header-menu>* {
   font-size:0.8rem;
   font-weight: 700;  
 }
+
+
 
 .dropdown-menu {
   opacity: 0;
@@ -751,8 +760,13 @@ ul#menu-header-menu>* {
 	margin-top:150px
 }
 
+.navbar-collapse {
+	background-color: #ffffffcC;
+}
+
 .nav-link {
-  position: relative;
+	position: relative;
+	margin: 0;
 }
 
 .nav-link:after {
@@ -798,7 +812,7 @@ ul#menu-header-menu>* {
 .check-black {
  color:#000;
 }
-.check-black > * > * > a {
+.check-black a {
   color:#000;
  }
 
@@ -806,7 +820,8 @@ ul#menu-header-menu>* {
 
 nav.navbar.navbar-brand {
   display: flex;
-  justify-content: space-between;
+	justify-content: space-between;
+	width:100%;
 }
 
 

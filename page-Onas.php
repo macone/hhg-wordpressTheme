@@ -9,12 +9,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_referencje.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<div class="logo-img"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
 					<ul>
 						<li>Od 2001 r. prowadzimy rekrutacje <b>z obszaru Sales&Marketing</b></li>
@@ -30,7 +30,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>HEADHUNTERS GROUP</h2>
 				<p>Zrealizowaliśmy z sukcesem<b> ponad 750 projektów rekrutacyjnych.</b> Specjalizujemy się w rekrutacjach na kluczowe stanowiska z obszaru Sales & marketing, w branżach:</p>
 				<ul>
@@ -45,7 +45,7 @@ get_header(); ?>
 						<li>Packaging</li>
 				</ul>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/Depositphotos_194509606_m-2015.jpg" class= "img-box-image" alt="" style="transform:rotateY(180deg);">
 				</div>

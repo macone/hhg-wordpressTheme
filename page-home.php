@@ -12,17 +12,17 @@ get_header(); ?>
 <div class="row head-txt">od 17 lat obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach:<br> B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</div>
 
 	<div class="row">
-		<div class="col-md-4 num-box">
+		<div class="col-md-12 col-lg-4  num-box">
 			<div class="num-text"><span>Od</span></div>
 			<div class="head-num count">2001</div>
 			<div class="num-text">roku prowadzimy rekrutacje z obszaru Sales & Marketing</div>
 		</div>
-		<div class="col-md-4 num-box">
+		<div class="col-md-12 col-lg-4 num-box">
 			<div class="num-text"><span>Monitorujemy kariery ponad</span></div>
 			<div class="head-num count">5000</div>
 			<div class="num-text">topowych kondydatów</div>
 		</div>
-		<div class="col-md-4 num-box">
+		<div class="col-md-12 col-lg-4 num-box">
 			<div class="num-text"><span>Zrealizowaliśmy z sukcesem ponad</span></div>
 			<div class="head-num count">750</div>
 			<div class="num-text">Projektów rekrutacyjnych</div>
@@ -142,12 +142,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720-rozwiązania-Headhunters-e1557095702737.png" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Bazy Kandydatów</h2>
 					<p>Posiadamy <b>aktywne, aktualizowane co 3 m-ce bazy kandydatów.</b> Od 4 lat na bieżąco <b>monitorujemy kariery ponad 5000 osób</b>, zajmujących kluczowe stanowiska w obszarze Sprzedaży i Marketingu.<b> W Klubie Poleceń HHG</b> działa kilka tysięcy ekspertów. Nasze oferty pracy są dystrybuowane m.in. przez ich sieć kontaktów zawodowych. </p>
 					<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Bazy HHG <i class="fas fa-chevron-right"></i></button></a>
@@ -174,7 +174,7 @@ $mypostsa = get_posts( $argsa );
 	$podleglyzespol = get_post_meta( get_the_ID(), 'podlegly_zespol', true );
 	$raportujedo = get_post_meta( get_the_ID(), 'raportuje_do', true );
 ?>
-<div class="col-4 job-offer mb-5">
+<div class="col-md-12 col-lg-4 job-offer mb-5">
 
 	<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
 		<?php the_title(); ?>		</a>
@@ -208,12 +208,12 @@ $mypostsa = get_posts( $argsa );
 		<div class="container">
 				<div class="row" style="margin-top:150px">
 
-					<div class="col-6 img-box-txt">
+					<div class="col-md-12 col-lg-6 img-box-txt">
 						<h2>Standardy i Gwarancje</h2>
 						<p>Rekrutujemy wśród <b>aktywnych zawodowo. Badamy referencje </b>kandydatów na 4 poziomach. <b>Opracowujemy poszerzone dossier</b> kandydatów. <b>Co kilka dni raportujemy o postępach</b> projektu. <b>Udzielamy gwarancji </b>bezpieczeństwa Klientom i Kandydatom. <b>Monitorujemy sytuację przez 6 m-cy </b>po zatrudnieniu Kandydata. Dbamy o najwyższą jakość <b>Candidates Experience</b></p>
 						<a href="<?php echo get_permalink(1961); ?>"><button class="hhg-btn-outline">Standardy i Gwarancje  <i class="fas fa-chevron-right"></i></button></a>
 					</div>
-					<div class="col-6">
+					<div class="col-md-12 col-lg-6">
 						<div class="img-box">
 							<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_1.png" class= "img-box-image" alt="">
 						</div>

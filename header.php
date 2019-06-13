@@ -142,33 +142,35 @@
             ?>
 <div id="main"><!-- this encompasses the entire Web site -->
 	<header id="header">
-    <div class="row">
-      <div class="container logo-cont">
-        <div class="logo col-md-3">
-          <a href="<?php bloginfo('url'); ?>/" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
-        </div>
-        <nav class="navbar navbar-brand navbar-expand-lg col-md-8 dark check-black" >
-          <?php /* Primary navigation */
-            wp_nav_menu( array(
-              'menu' => 'top_menu',
-              'depth' => 2,
-              'container' => false,
-              'menu_class' => 'nav',
-              //Process nav menu using our custom nav walker
-              'walker' => new wp_bootstrap_navwalker())
-            );
-          ?>
-          <div class="polski">		 
-            <a href="#" onclick="setActiveStyleSheet('angielski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_en.png" alt="" style="float: right" title="English version" /></a></div>
-          <div class="angielski">
-            <a href="#" onclick="setActiveStyleSheet('polski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_pl.png" alt="" style="float: right" title="Wersja polska" /></a>
-          </div>
-        </nav>
-      </div>
-    </div>
 
+				<div class="container logo-cont">
+				<div class="row" style="width:100%">
+					<nav class="navbar navbar-brand navbar-expand-lg dark navbar-light" >
+						<a href="<?php bloginfo('url'); ?>/" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+					<?php 
+							wp_nav_menu( array(
+								'menu' => 'top_menu',
+								'depth' => 2,
+								'container' => false,
+								'menu_class' => 'nav navbar-nav ml-auto',
 
-
+								'walker' => new wp_bootstrap_navwalker())
+							);
+						?>
+						
+						<div class="polski">		 
+							<a href="#" onclick="setActiveStyleSheet('angielski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_en.png" alt="" style="float: right" title="English version" /></a></div>
+						<div class="angielski">
+							<a href="#" onclick="setActiveStyleSheet('polski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_pl.png" alt="" style="float: right" title="Wersja polska" /></a>
+						</div>
+						</div>
+					</nav>
+				</div>
+			</div>
     
 	</header>
 	<section id="slider-wrapper">
@@ -179,30 +181,36 @@
             ?>
 <div id="main"><!-- this encompasses the entire Web site -->
 	<header id="header">
-    <div class="row">
-      <div class="container logo-cont">
-        <div class="logo col-md-3">
-          <a href="<?php bloginfo('url'); ?>/" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
-        </div>
-        <nav class="navbar navbar-brand navbar-expand-lg col-md-8 dark check-black" >
-          <?php /* Primary navigation */
-            wp_nav_menu( array(
-              'menu' => 'top_menu',
-              'depth' => 2,
-              'container' => false,
-              'menu_class' => 'nav',
-              //Process nav menu using our custom nav walker
-              'walker' => new wp_bootstrap_navwalker())
-            );
-          ?>
-          <div class="polski">		 
-            <a href="#" onclick="setActiveStyleSheet('angielski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_en.png" alt="" style="float: right" title="English version" /></a></div>
-          <div class="angielski">
-            <a href="#" onclick="setActiveStyleSheet('polski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_pl.png" alt="" style="float: right" title="Wersja polska" /></a>
-          </div>
-        </nav>
-      </div>
-    </div>
+
+				<div class="container logo-cont">
+				<div class="row" style="width:100%">
+					<nav class="navbar navbar-brand navbar-expand-lg dark navbar-light" >
+						<a href="<?php bloginfo('url'); ?>/" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+					<?php 
+							wp_nav_menu( array(
+								'menu' => 'top_menu',
+								'depth' => 2,
+								'container' => false,
+								'menu_class' => 'nav navbar-nav ml-auto',
+
+								'walker' => new wp_bootstrap_navwalker())
+							);
+						?>
+						
+						<div class="polski">		 
+							<a href="#" onclick="setActiveStyleSheet('angielski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_en.png" alt="" style="float: right" title="English version" /></a></div>
+						<div class="angielski">
+							<a href="#" onclick="setActiveStyleSheet('polski'); return false;"><img src="<?php bloginfo('template_url'); ?>/images/flag_pl.png" alt="" style="float: right" title="Wersja polska" /></a>
+						</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+    
 	</header>
 	<?php
         } ?>

@@ -64,12 +64,12 @@ get_header(); ?>
 <section>
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/creative-business-people-working-on-business-NUVCFPK.resized.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Feedback</h2>
 					<p>Każdy Kandydat, który wyśle swoją aplikację, otrzyma od nas informację zwrotną. Wszyscy Kandydaci, którzy biorą udział w projekcie, otrzymują informację o jego statusie co najmniej raz na 7 dni. 
 					</p>
@@ -80,11 +80,11 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row mt">
-			<div class="col-6 img-box-txt">
+			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>Gwarancja Bezpieczeństwa</h2>
 				<p>	Gwarantujemy Kandydatom, że jeśli z przyczyn niezależnych od nich samych rozwiążą współpracę z Klientem w okresie gwarancji, pomożemy im znaleźć nowe zatrudnienie.</p>
 			</div>
-			<div class="col-6">
+			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/smiling-mature-corporate-executive-wearing-a-8SYVTPQ.resized.jpg" class= "img-box-image" alt="">
 				</div>
