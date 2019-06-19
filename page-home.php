@@ -182,11 +182,11 @@ $mypostsa = get_posts( $argsa );
 	<p class="">
 		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
 	</p>
-	<p>Dział: <strong><?php echo $dzial; ?></strong></p>
-	<p>Raportuje do: <strong><?php echo $raportujedo; ?></strong></p>
-	<p>Podległy zespół: <strong><?php echo $podleglyzespol; ?></strong></p>
-	<p>Lokalizacja: <strong><?php echo $lokalizacja; ?></strong></p>
-	<p>Kraj: <strong><?php echo $kraj; ?></strong></p>
+	<p><strong>Dział: </strong><?php echo $dzial; ?></p>
+	<p><strong>Raportuje do: </strong><?php echo $raportujedo; ?></p>
+	<p><strong>Podległy zespół: </strong><?php echo $podleglyzespol; ?></p>
+	<p><strong>Lokalizacja: </strong><?php echo $lokalizacja; ?></p>
+	<p><strong>Kraj: </strong><?php echo $kraj; ?></p>
 	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
 	<p style="min-height: 189px"><?php echo $wypis; ?></p>
 	<p style="text-align: right">
