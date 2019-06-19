@@ -42,8 +42,37 @@ $mypostsc = get_posts( $argsc );
 
 ?>
 
-	<div class="container mt-5">
-			<div class="row">
+<div class="container mt-5">
+		<div class="row">
+			<div class="col-4">
+				<h3>Lista ofert</h3>
+				<ul>
+				<?php foreach( $mypostsa as $post ) :	setup_postdata($post); ?>
+				<?php $nrref = get_post_meta($post->ID, 'nr_ref', true); ?>
+
+					<li class="offer-list"><a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>	</a>
+					</li>
+
+				<?php endforeach; ?>
+				<?php foreach( $mypostsb as $post ) :	setup_postdata($post); ?>
+				<?php $nrref = get_post_meta($post->ID, 'nr_ref', true); ?>
+
+					<li class="offer-list"><a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>	</a>
+					</li>
+
+				<?php endforeach; ?>
+				<?php foreach( $mypostsc as $post ) :	setup_postdata($post); ?>
+				<?php $nrref = get_post_meta($post->ID, 'nr_ref', true); ?>
+
+					<li class="offer-list"><a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>	</a>
+					</li>
+
+				<?php endforeach; ?>
+				</ul>
+			</div>
 
 <?php foreach( $mypostsa as $post ) :	setup_postdata($post); ?>
 <?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true );?>

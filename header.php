@@ -26,9 +26,9 @@
     bloginfo('name');
 } elseif (is_single()) {
     wp_title('');
-    echo ' - HeadHunters Group';
+    echo ' - HEADHUNTERS GROUP';
 } else {
-    echo wp_title(' - ', false, right).'HeadHunters Group';
+    echo wp_title(' - ', false, right).'HEADHUNTERS GROUP';
 } ?></title>
 	<meta name="description" content="<?php wp_title(); echo ' | '; bloginfo('description'); ?>" />
 	<meta charset="<?php bloginfo('charset'); ?>" />

@@ -5,11 +5,13 @@
 
 
 get_header(); ?>
+<div class="bg-img"></div>
 <div id="content" class="container <?php echo of_get_option('blog_sidebar_pos') ?>">
+
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
       <article class="job-offer-single">
-        <header>
+        <header style="margin-top:20px">
           <h2 style="text-align:center;"><?php the_title(); ?></h2>
         </header>
         <?php $single_image_size = of_get_option('single_image_size'); ?>
@@ -105,7 +107,7 @@ get_header(); ?>
 		$komp5ocena = get_post_meta( get_the_ID(), 'kompetencje_5_ocena', true );*/
 		
 		echo '<p class="ref-num">'.$lista_branz.'Nr Ref. '.$nrref.'</p>';
-		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Informacje podstawowe dotyczące firmy:</h3></div><div class="col-7">'.$compdesc.'</div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Informacje podstawowe dotyczące firmy:</h6></div><div class="col-7">'.$compdesc.'</div></div>';
 		echo '<div class="row justify-content-center"><div class="col-8 mt-5"><table>';
 		echo '<tr><td valign="top"  style="width: 167px;  ">Nazwa stanowiska:</td><td valign="top" ><strong>'.$stanowisko.'</td></tr>';
 		echo '<tr><td valign="top"  style="width: 167px;  ">Dział:</td><td valign="top" ><strong>'.$dzial.'</strong></td></tr>';
@@ -114,15 +116,15 @@ get_header(); ?>
 		echo '<tr><td valign="top"  style="width: 167px;  ">Lokalizacja:</td><td valign="top" ><strong>'.$lokalizacja.'</strong></td></tr>';
 		echo '<tr><td valign="top"  style="width: 167px;  ">Kraj:</td><td valign="top" ><strong>'.$kraj.'</strong></td></tr>';
 		echo '</table></div></div>';
-		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Cel stanowiska:</h3></div><div class="col-7">'.$celstanowiska.'</div></div>';
-		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Główny zakres odpowiedzialności:</h3></div><div class="col-7">';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Cel stanowiska:</h6></div><div class="col-7">'.$celstanowiska.'</div></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Główny zakres odpowiedzialności:</h6></div><div class="col-7">';
 		echo '<ul>';
 		foreach ($zakresodparray as $zakrodp)
 		{
 			echo '<li>'.$zakrodp.'</li>';
 		}
 		echo '</ul></div></div>';
-		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Oczekiwane wyniki i główne wskaźniki efektywności</h3></div><div class="col-7">';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Oczekiwane wyniki i główne wskaźniki efektywności</h6></div><div class="col-7">';
 		echo '<ul>';
 		if(count($owiwarray)<=1) echo $owiw; else {
 		foreach ($owiwarray as $ow)
@@ -131,7 +133,7 @@ get_header(); ?>
 		}
 		}
 		echo '</ul></div></div>';
-		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Informacje uzupełniające</h3></div>';
+		echo '<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Informacje uzupełniające</h6></div>';
 		echo '<div class="col-7"><table cellpadding=5 style="width: 100%"><tr style="border-bottom: 1px solid #9F6233"><td valign="top"  style="width:161px; border-right: 1px solid #9F6233"><strong>Doświadczenie zawodowe</strong></td><td valign="top" ><strong>Niezbędne:</strong></td><td valign="top" ><strong>Pożądane:</strong></td></tr>';
 		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$dosniez.'</td><td valign="top" >'.$dospoz.'</td></tr>';
 		echo '</table>';
@@ -145,8 +147,8 @@ get_header(); ?>
 
 		echo '</table></div></div>';
 		/* END Inne */
-		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Kompetencje</h3></div>';
-		echo '<div class="col-7"><table cellpadding=5><tr><td valign="top"  style="width:165px"></td><td valign="top"  style=" text-align:center">Wybitny (5)</td><td valign="top"  style=" text-align:center">Doskonały (4)</td><td valign="top"  style=" text-align:center">Dobry (3)</td><td valign="top"  style=" text-align:center">Uczący się (2)</td><td valign="top"  style=" text-align:center">Brak (1)</td></tr>';
+		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Kompetencje</h6></div>';
+		echo '<div class="col-7"><table cellpadding=5><tr><td valign="top"></td><td valign="top" class="top-offer">Wybitny (5)</td><td valign="top" class="top-offer">Doskonały (4)</td><td valign="top" class="top-offer">Dobry (3)</td><td valign="top" class="top-offer">Uczący się (2)</td><td valign="top" class="top-offer">Brak (1)</td></tr>';
 		for($k=0;$k<$ilosckompetencji;$k++) {
 		echo '<tr style="border-bottom: 1px solid #9F6233"><td valign="top" >'.$kompetencja[$k].'</td>';
 		check_comp($kompetencjaocena[$k]);
@@ -162,7 +164,7 @@ get_header(); ?>
 		echo '<tr style="border-bottom: 1px solid #9F6233"><td valign="top" >'.$komp5.'</td>';
 		check_comp($komp5ocena);*/
 		echo '</table></div></div>';
-		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h3  >Warunki zatrudnienia</h3></div>';
+		echo'<div class="row justify-content-center mt-5"><div class="col-3 tr"><h6  >Warunki zatrudnienia</h6></div>';
 		echo '<div class="col-7"><table cellpadding=5>';
 		for($l=0; $l<$iloscwarunkow; $l++)
 		echo '<tr><td valign="top"  style="width:157px"><strong>'.$warunek[$l].'</strong></td><td valign="top"  style="padding-left: 20px">'.$warunekuwaga[$l].'</td></tr>';

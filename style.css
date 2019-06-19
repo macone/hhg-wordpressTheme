@@ -612,6 +612,38 @@ svg.bottom {
 	margin:auto
 }
 
+.job-offer-single h6 {
+	font-weight: 600;
+	color:#9F6233;
+}
+
+.job-offer-single .top-offer{
+	color: #9F6233; 
+	text-align:center;
+	font-size: 10px;
+	width:5rem;
+}
+
+
+.offer-list a{
+	color: #000
+}
+
+.offer-list {
+	list-style: none;
+	position: relative;
+}
+
+.offer-list:before {
+	content: " ";
+	width: 50px;
+	height: 1px;
+	background-color: #9F6233;
+	left: -65px;
+	top: 45%;
+	position: absolute;
+}
+
 .auto-style1 {
 	text-align: left;
 }
@@ -689,7 +721,7 @@ svg.bottom {
 }
 
 .bg-rect > a {
-	color: #333;
+	color: #000;
 }
 /*---------------------------------------- */
 #header {
@@ -1932,7 +1964,7 @@ nav.oldernewer {
 		left:0;
 		top:0;
 		font-size:15px;
-		color:#333;
+		color:#000;
 		font-weight:bold;
 		}
 	.faq_list dd {
@@ -2079,7 +2111,7 @@ nav.oldernewer {
 			text-align:right;
 			font-weight:bold;
 			display:block;
-			color:#333;
+			color:#000;
 			}
 			.name-testi a {
 				font-weight:normal;
@@ -2099,7 +2131,7 @@ nav.oldernewer {
 				display:block;
 				}
 			.testimonials div.testi_item blockquote a:hover {
-				color:#333;
+				color:#000;
 				}
 
 /* Misc for Cycle widgets */

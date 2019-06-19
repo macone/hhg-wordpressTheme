@@ -37,7 +37,7 @@ get_header(); ?>
 		</div>
 		<div class="r-slide">
 				<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l6.png">	</div>
-				<p class="quote">Z pełnym przekonaniem polecam HeadHunters Group jako profesjonalnego, rzetelnego i wiarygodnego partnera biznesowego.
+				<p class="quote">Z pełnym przekonaniem polecam HEADHUNTERS GROUP jako profesjonalnego, rzetelnego i wiarygodnego partnera biznesowego.
 				</p>
 				<p class="author"><b>Maciej Marunowski</b><br>
 			Dyrektor Zarządzający<br>

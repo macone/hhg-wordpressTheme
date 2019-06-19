@@ -31,6 +31,20 @@ $myposts = get_posts( $args );
 
 	<div class="container mt-5">
 		<div class="row">
+			<div class="col-4">
+				<h3>Lista ofert</h3>
+				<ul>
+				<?php foreach( $myposts as $post ) :	setup_postdata($post); ?>
+				<?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true ); $data_dodania = get_post_meta($post->ID, 'data_dodania', true);?>
+
+					<li class="offer-list"><a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>		</a>
+					</li>
+
+				<?php endforeach; ?>
+				</ul>
+			</div>
+
 
 <?php foreach( $myposts as $post ) :	setup_postdata($post); ?>
 <?php $nrref = get_post_meta($post->ID, 'nr_ref', true); $wypis = get_post_meta( get_the_ID(), 'excerpt', true ); $data = get_post_meta( get_the_ID(), 'datastart', true ); $data_dodania = get_post_meta($post->ID, 'data_dodania', true);?>

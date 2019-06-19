@@ -126,7 +126,7 @@ function optionsframework_options() {
 	$options[] = array( "name" => "Typography",
 						"desc" => "Typography.",
 						"id" => "body_typography",
-						"std" => array('size' => '12px','face' => '','style' => '','color' => '#333'),
+						"std" => array('size' => '12px','face' => '','style' => '','color' => '#000'),
 						"type" => "typography");
 	
 	$options[] = array( "name" => "Custom CSS",

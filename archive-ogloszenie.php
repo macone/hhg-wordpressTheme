@@ -119,7 +119,7 @@
 		echo '<tr><td valign="top"  style="border-right: 1px solid #9F6233"></td><td valign="top"  style="width:250px" valign="top">'.$wykniez.'</td><td valign="top" >'.$wykpoz.'</td></tr>';
 		echo '</table><br/><br/>';
 		echo'<h3 style="color: #9F6233">Kompetencje</h3>';
-		echo '<table cellpadding=5><tr><td valign="top"  style="width:165px"></td><td valign="top"  style="color: #9F6233; text-align:center">Wybitny (5)</td><td valign="top"  style="color: #9F6233; text-align:center">Doskonały (4)</td><td valign="top"  style="color: #9F6233; text-align:center">Dobry (3)</td><td valign="top"  style="color: #9F6233; text-align:center">Uczący się (2)</td><td valign="top"  style="color: #9F6233; text-align:center">Brak (1)</td></tr>';
+		echo '<table cellpadding=5><tr><td valign="top"></td><td valign="top"  class="top-offer">Wybitny (5)</td><td valign="top"  class="top-offer">Doskonały (4)</td><td valign="top"  class="top-offer">Dobry (3)</td><td valign="top"  class="top-offer">Uczący się (2)</td><td valign="top"  class="top-offer">Brak (1)</td></tr>';
 		for($k=1;$k<=$ilosckompetencji;$k++) {
 		echo '<tr style="border-bottom: 1px solid #9F6233"><td valign="top" >'.$kompetencja[$k].'</td>';
 		check_comp($kompetencjaocena[$k]);
