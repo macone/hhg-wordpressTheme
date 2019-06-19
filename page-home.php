@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="col-md-12 align-items-center">
 	<img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="mx-auto d-block" alt="">
 	</div> 
-<div class="row head-txt">od 17 lat obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach:<br> B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</div>
+<div class="row head-txt">od 2001 roku obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach:<br> B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</div>
 
 	<div class="row">
 		<div class="col-md-12 col-lg-4  num-box">
@@ -128,7 +128,7 @@ get_header(); ?>
 			<!--/.Carousel Wrapper-->
 		</div>
 		<div class="row" style="margin-top:50px;">
-			<div class="col-7"><p>od 17 lat obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach: B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</p>
+			<div class="col-7"><p>od 2001 roku obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach: B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</p>
 			</div> 
 			<div class="col-5">
 				<a href="<?php echo get_permalink(596); ?>"><button class='hhg-btn-outline'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button></a>

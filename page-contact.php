@@ -21,8 +21,7 @@ get_header(); ?>
 				<p>ul. Szajnochy 5/3
 				01-637 Warszawa</p> 
 				
-				<p>Tel. 22 839 88 75<br>
-				Tel. 22 839 89 42</p> 
+				<p>Tel. 22 839 88 75</p>
 				<p><a href="https://www.headhuntersgroup.pl">www.headhuntersgroup.pl</a>  </p>
 				<p><a href="https://www.hhg.pl">www.hhg.pl</a>  </p>
 		</div>

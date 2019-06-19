@@ -225,6 +225,8 @@ h3 {
 
 body.home #slider-wrapper {
 	height: 520px;
+	display: flex;
+	justify-content: center;
 }
 #slider-top {
 	height:2px;
@@ -527,7 +529,8 @@ font-size: 1rem;
 svg {
   position: absolute;
   width: 100%;
-  height: 50px;
+	height: 50px;
+	
 }
 
 svg.top {
@@ -677,10 +680,10 @@ svg.bottom {
 .bg-rect::before{
 	content: "";
 	z-index: -1;
-	top: -20px;
-	left: -12%;
-	width: 260px;
-	height: 75px;
+	top: -10%;
+	left: -5%;
+	width: 110%;
+	height: 120%;
 	background-color: #E29D6566;
 	position: absolute;
 }
