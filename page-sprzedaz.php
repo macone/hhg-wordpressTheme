@@ -57,6 +57,7 @@ $myposts = get_posts( $args );
 ?>
 
 <div class="col-4 job-offer mb-5">
+	
 
 		<h3 class="bg-rect"><a href="<?php the_permalink(); ?>">
 			<?php the_title(); ?>		</a>

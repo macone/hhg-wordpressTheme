@@ -33,7 +33,7 @@ get_header(); ?>
 			Tel. kom.: +48 607 918 730 </p>
 		</div>
 	</div>
-	<div class="row" style="margin-top:50px">
+	<div class="row map">
 			<iframe src="https://maps.google.pl/maps?f=q&amp;source=s_q&amp;hl=pl&amp;geocode=&amp;q=Karola+Szajnochy+5,+Warszawa&amp;aq=4&amp;oq=szajnochy+5&amp;sll=52.24755,21.193789&amp;sspn=4.62147,13.392334&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Karola+Szajnochy+5,+Warszawa,+Mazowieckie&amp;ll=52.270679,20.981827&amp;spn=0.012238,0.023603&amp;z=14&amp;iwloc=A&amp;output=embed" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 	</div>
 </div>
