@@ -119,7 +119,7 @@ get_header(); ?>
 						<div class="timeline-content">
 							<h3 class="title">Interview u klienta</h3>
 							<ul class="description">
-									<li><b>Wymiana feebacków</b></li>
+									<li><b>Wymiana feedbacków pomiędzy klientem a kandydatem po spotkaniach </b></li>
 							</ul>
 						</div>
 					</div>
@@ -130,6 +130,9 @@ get_header(); ?>
 						<span class="timeline-icon"></span>
 						<div class="timeline-content">
 							<h3 class="title">Podpisanie umowy z kandydatem </h3>
+							<ul class="description">
+									<li><b>Negocjacje warunków zatrudnienia i podpisanie umowy z kandydatem </b></li>
+							</ul>
 						</div>
 						<div class="etap-col">
 							<span class="etap">Etap 7</span>

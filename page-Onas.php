@@ -107,7 +107,7 @@ get_header(); ?>
 					</ul>
 				</div>
 			</div>
-			<div class="card">
+			<!-- <div class="card">
 				<div class="card-body">
 					<h3 class="card-title">Analizy rynkowe</h3>
 					<ul>
@@ -116,6 +116,21 @@ get_header(); ?>
 						<li>Analityk Sprzedaży</li>
 						<li>Business Analyst</li>
 						<li>Reaserch Manage</li>
+					</ul>
+				</div>
+			</div> -->
+
+
+
+			<div class="card">
+				<div class="card-body">
+					<h3 class="card-title">General & Operations Management</h3>
+					<ul>
+						<li>Prezes Zarządu </li>
+						<li>Dyrektor Zarządzający</li>
+						<li>Dyrektor Operacyjny </li>
+						<li>Dyrektor Sprzedaży i Marketingu </li>
+						<li>Dyrektor Biznes Unit </li>
 					</ul>
 				</div>
 			</div>

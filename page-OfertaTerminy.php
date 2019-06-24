@@ -106,9 +106,10 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt">
 					<h2>Selekcja </h2>
+					<p>Zamieścimy ogłoszenie w mediach, wyselekcjonujemy  najlepsze aplikacje, spotkamy kandydatów ocenimy ich pod kątem poszukiwanych kompetencji, sprawdzimy referencje i przygotujemy ich dossier.</p>
 					<ul>
-						<li>..........</li>
-						<li>..........</li>
+						<li>Czas realizacji: 2 - 4 tygodnie</li>
+						<li>Okres gwarancji: 6 m-cy.</li>
 					</ul>
 				</div>
 		</div>

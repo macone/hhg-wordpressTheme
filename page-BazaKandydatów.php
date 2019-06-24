@@ -45,10 +45,10 @@ get_header(); ?>
 				<h2>Aktualizujemy nasze bazy na bieżąco. </h2>
 				<p>Wiemy, jacy Kandydaci są obecnie dostępni w sektorach:</p>
 				<ul>
-						<li>FMCG (Kandydaci z działów: Sprzedaży, Marketingu, Trade Marketingu)</li>
-						<li>B2B (Kandydaci z Działu Sprzedaży: urządzeń i produktów technicznych, HVAC, automatyki, opakowań, usług)</li>
-						<li>Budowa i nieruchomości </li>
-						<li>E-Commerce</li>
+					<li>FMCG (Kandydaci z działów: Sprzedaży, Marketingu, Trade Marketingu, Zarządzanie kategorią)</li>
+					<li>B2B (Kandydaci z Działu Sprzedaży: urządzeń i produktów technicznych, HVAC, automatyki, opakowań, usług)</li>
+					<li>Budowa i nieruchomości / Branża budowlana i rynek Facilities management </li>
+					<li>E-Commerce i Digital Marketing </li>
 				</ul>
 			</div>
 			<div class="col-md-12 col-lg-6">
