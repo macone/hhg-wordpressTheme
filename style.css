@@ -732,6 +732,10 @@ svg.bottom {
 	z-index:10;
 	background:#FFF;
 }
+
+#cv-file {
+	padding-top:3px;
+}
   
 .logo {
   width: 100%;
@@ -3007,11 +3011,11 @@ input, select, textarea {
 	}*/
 textarea {
 	/* background:white;
-	border:1px solid #E29D6566;
-	padding:6px 5px; */
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
+	border:1px solid #E29D6566;*/
+	padding:6px 5px; 
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
 	} 
 
 
@@ -3092,6 +3096,22 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 	margin-top:50px
 }
 
+p.form {
+	padding-left: 25px;
+}
+p.form.reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	padding-bottom:25px;
+}
+
+span.wpcf7-list-item > label {
+	display:flex;
+}
+span.wpcf7-list-item > label > input {
+	margin: 0 15px;
+	width: 38px;
+}
 
 .wpcf7-form {
 	width:100%;
