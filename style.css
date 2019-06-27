@@ -2,7 +2,7 @@
 /*--
 	Theme Name: Checkme.pl
 	Theme URI: http://checkme.pl/
-	Description: Theme made for Head Hunters Group
+	Description: Theme made for HeadHunters Group
 	Author: Maciej Łukasiak 
 	Author URL: http://www.checkme.pl/ 
 --*/
@@ -11,11 +11,6 @@
 ---------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900');
-
-
-.angielski, .en {
-	display: none;
-}
 
 html body {
   font-size:14px;

@@ -14,16 +14,26 @@ get_header(); ?>
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_referencje.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-6 img-box-txt">
-					<div class="logo-img"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
-					<ul>
-						<li>Od 2001 r. prowadzimy rekrutacje <b>z obszaru Sales&Marketing</b></li>
-						<li>Monitorujemy kariery ponad <b>5000 topowych kandydatów</b></li>
-						<li>Posiadamy <b>referencje od najlepszych firm:</b> P&G, NIVEA, Tetley, Coty, Varta, Siemens, Otis, Colgate-Palmolive, Solvay Pharma i wielu innych</li>
-						<li>Dysponujemy aktualnymi kandydatów aktywnych na rynku pracy </li>
-						<li>Prowadzimy <b>Klub Poleceń HHG</b>, którego członkowie - eksperci sprzedaży i marketingu - polecają nasze oferty pracy w swojej sieci kontaktów</li>
-					</ul>
-				</div>
+			<div class="col-md-12 col-lg-6 img-box-txt pl">
+				<div class="logo-img "><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
+				<ul>
+					<li>Od 2001 r. prowadzimy rekrutacje <b>z obszaru Sales&Marketing</b></li>
+					<li>Monitorujemy kariery ponad <b>5000 topowych kandydatów</b></li>
+					<li>Posiadamy <b>referencje od najlepszych firm:</b> P&G, NIVEA, Tetley, Coty, Varta, Siemens, Otis, Colgate-Palmolive, Solvay Pharma i wielu innych</li>
+					<li>Dysponujemy aktualnymi kandydatów aktywnych na rynku pracy </li>
+					<li>Prowadzimy <b>Klub Poleceń HHG</b>, którego członkowie - eksperci sprzedaży i marketingu - polecają nasze oferty pracy w swojej sieci kontaktów</li>
+				</ul>
+			</div>
+			<div class="col-md-12 col-lg-6 img-box-txt en">
+				<div class="logo-img en"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
+				<ul>
+					<li>We have been organizing recruitment processes for Sales&Marketing since 2001</li>
+					<li>We monitor the careers of over 5000 top candidates</li>
+					<li>We are recommended by the best companies: P&G, NIVEA, Tetley, Coty, Varta, Siemens, Otis, Colgate-Palmolive, Solvay Pharma and many others</li>
+					<li>We have up-to-date information on candidates active in their field </li>
+					<li>We run the HHG Recommendation Club, members of which – sales and marketing experts – recommend our job offers among their professional contacts</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
@@ -32,8 +42,10 @@ get_header(); ?>
 		<div class="row mt" style="margin-top:150px">
 			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>HEADHUNTERS GROUP</h2>
-				<p>Zrealizowaliśmy z sukcesem<b> ponad 750 projektów rekrutacyjnych.</b> Specjalizujemy się w rekrutacjach na kluczowe stanowiska z obszaru Sales & marketing, w branżach:</p>
-				<ul>
+				<p class="pl">Zrealizowaliśmy z sukcesem<b> ponad 750 projektów rekrutacyjnych.</b> Specjalizujemy się w rekrutacjach na kluczowe stanowiska z obszaru Sales & marketing, w branżach:</p>
+				<p class="en">We have successfully completed over 750 recruitment projects. We specialize in recruiting for key positions in Sales and Marketing departments in the following fields:</p>
+
+				<ul class="pl">
 						<li>B2B</li>
 						<li>FMCG</li>
 						<li>HVAC</li>
@@ -44,6 +56,18 @@ get_header(); ?>
 						<li>Farmacja</li>
 						<li>Packaging</li>
 				</ul>
+				<ul class="en">
+					<li>B2B</li>
+					<li>FMCG</li>
+					<li>HVAC</li>
+					<li>RTV/AGD</li>
+					<li>Technical Products & Solutions</li>
+					<li>Building & Construction</li>
+					<li>Advertising and Media</li>
+					<li>Pharmacy</li>
+					<li>Packaging</li>
+			</ul>
+
 			</div>
 			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
@@ -63,7 +87,8 @@ get_header(); ?>
 		<div class="card-deck">
 			<div class="card">
 				<div class="card-body">
-					<h3 class="card-title">Sprzedaż</h3>
+					<h3 class="card-title pl">Sprzedaż</h3>
+					<h3 class="card-title en">Sales</h3>
 					<ul>
 						<li>Sales Director</li>
 						<li>National Sales Manager </li>
@@ -72,10 +97,8 @@ get_header(); ?>
 						<li>Business Unit Manager </li>
 						<li>Sales Engineer</li>
 						<li>Account Manger </li>
-						<li>Business Development </li>
-						<li>Manager </li>
-						<li>National Key Account </li>
-						<li>Manager </li>
+						<li>Business Development Manager</li>
+						<li>National Key Account Manager </li>
 					</ul>
 				</div>
 			</div>
@@ -125,12 +148,20 @@ get_header(); ?>
 			<div class="card">
 				<div class="card-body">
 					<h3 class="card-title">General & Operations Management</h3>
-					<ul>
+					<ul class="pl">
 						<li>Prezes Zarządu </li>
 						<li>Dyrektor Zarządzający</li>
 						<li>Dyrektor Operacyjny </li>
 						<li>Dyrektor Sprzedaży i Marketingu </li>
 						<li>Dyrektor Biznes Unit </li>
+					</ul>
+
+					<ul class="en">
+						<li> President of the Board </li>
+						<li> Managing Director </li>
+						<li> Operational Director </li>
+						<li> Sales and Marketing Director </li>
+						<li> Business Unit Director </li>
 					</ul>
 				</div>
 			</div>

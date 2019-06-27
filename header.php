@@ -47,7 +47,7 @@
     	<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
     </div>
   <![endif]-->
-	<!-- <link rel="stylesheet" type="text/css" media="all" title="polski" href="<?php bloginfo('stylesheet_url'); ?>" /> -->
+	<link rel="stylesheet" type="text/css" media="all" title="polski" href="<?php bloginfo('template_url'); ?>/style_pol.css" />
 	<link rel="alternate stylesheet" type="text/css" media="all" title="angielski" href="<?php bloginfo('template_url'); ?>/style_angielski.css" />
 	<?php
         /* We add some JavaScript to pages with the comment form
