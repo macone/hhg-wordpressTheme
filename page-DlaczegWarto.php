@@ -48,7 +48,6 @@ get_header(); ?>
 				<h2>We check each candidate’s reference on 4 levels.</h2>
 				<p>We check each candidate’s reference on 4 levels. This allows you to reduce of risk of employment by 70%. As part of our research we conduct interviews with:</p>
 				<ul>
-
 					<li>The most recent superior</li>
 					<li>1-2 co-workers</li>
 					<li>Subordinate</li>

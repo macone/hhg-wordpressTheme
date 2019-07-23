@@ -459,7 +459,7 @@ font-size: 1rem;
 .hhg-btn-outline {
 	text-align: center;
 	vertical-align: middle;
-	padding: 0px 23px;
+	padding: 0px 40px 0 23px;
 	border: 2px solid #E29D65;
 	border-radius: 100px;
 	background-color: #FFF0;
@@ -470,13 +470,41 @@ font-size: 1rem;
 	text-transform: uppercase;
 	height: 40px;
 	margin-left: 15px;
+	position: relative;
 }
 
 .hhg-btn-outline > i {
 	font-size: 20px;
 	vertical-align: sub;
 	margin-left: 10px;
+	position:absolute;
+	top: 9px;
+	right: 15px;
+	opacity: 1;
+	/* transition: .2s all ease; */
 }
+.hhg-btn-outline:hover > i {
+	animation: slide .4s ease both;
+}
+
+
+@keyframes slide {
+  50% {
+		right: 0px;
+		opacity:0;
+  }
+  
+  51% {
+		right: 30px;
+		opacity:0;
+  }
+
+  100% {
+		right: 15px;
+		opacity: 1;
+  }
+}
+
 /* Numbers on home page */
 
 .num-box {

@@ -178,6 +178,13 @@ get_header(); ?>
   ul. Karola Szajnochy 5/3<br>
   01-637 Warszawa<br>
   e-mail:&nbsp;<a href="mailto:biuro@hhg.pl?subject=CDAPMgr_01/2018">biuro@hhg.pl</a><br>
+	<p class="auto-style1">lub prosimy o wypełnienie formularza:</p>
+	<div class="row">
+		<div class="col-8 offset-2">
+				<?php echo do_shortcode( '[contact-form-7 id="2010" title="single"]' ); ?>
+		</div>
+	</div>
+
   <a href="http://www.hhg.pl/">www.hhg.pl</a> </p>
 <h3 style="color:red">Zanim zgłosisz swój udział w rekrutacji,  pamiętaj! </h3>
 <p><strong>W dokumentach aplikacyjnych, które zechcesz  nam przekazać w odpowiedzi na to ogłoszenie, znajdują się Twoje dane osobowe.  Abyśmy mogli z tych informacji skorzystać i rozważyć Twoją kandydaturę na tę  ofertę zatrudnienia potrzebujemy Twojej zgody na przetwarzanie danych osobowych. </strong></p>
