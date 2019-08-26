@@ -98,15 +98,15 @@ get_header(); ?>
 					<h2 class="pl">SPRZEDAŻY</h2>
 					<h2 class="en">Sales</h2>
 					<ul>
-						<li>E-commerce Manager </li>
-						<li>Sales Manager</li>
-						<li>Industry Sales Manager</li>
-						<li>Sales Engineer </li>
-						<li>Sales Director</li>
-						<li>Regional Sales Manager</li>
-						<li>Key Account Manager</li>
-						<li>Regional Sales Representative </li>
-						<li>Area Sales Manager </li>
+						<li>Dyrektor Sprzedaży</li>
+						<li>National Key Account Manager</li>
+						<li>Dyrektor Sprzedaży Przemysłowej</li>
+						<li>Krajowy Kierownik Sprzedaży</li>
+						<li>Dyrektor Sprzedaży OEM</li>
+						<li>Kierownik ds. Kluczowych Klientów </li>
+						<li>Dyrektor Regionalny Sprzedaży</li>
+						<li>Inżynier Sprzedaży</li>
+						<li>Regionalny Przedstawiciel Handlowy</li>
 					</ul>
 				</div>
 		</div>
@@ -118,13 +118,17 @@ get_header(); ?>
 			<div class="col-md-12 col-lg-6 img-box-txt">
 				<h2>MARKETINGU </h2>
 				<ul>
-						<li>Digital Marketing Manager  </li>
-						<li>Brand Manager</li>
-						<li>National Key Account Manager</li>
-						<li>Trade Marketing Manager</li>
-						<li>Category Manager</li>
-						<li>Marketing Manager </li>
-						<li>Marketing Director</li>
+						<li>Dyrektor Marketingu </li>
+						<li>Dyrektor Komunikacji i Mediów </li>
+						<li>Dyrektor Marketingu i PR</li>
+						<li>Marketing Manage</li>
+						<li>Digital Marketing Manager</li>
+						<li>Kierownik ds. Mediów Społecznościowych </li>
+						<li>Kierownik Marketingu Grupy Produktowej</li>
+						<li>Kierownik Marki</li>
+						<li>Młodszy Kierownik Marki </li>
+						<li>Specjalista ds. Marketingu</li>
+
 					</ul>
 			</div>
 			<div class="col-md-12 col-lg-6">
@@ -145,15 +149,20 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
-				<h2>ANALITYKI SPRZEDAŻY/MARKETINGU</h2>
+				<h2>WSPARCIE SPRZEDAŻY I MARKETINGU </h2>
 				<ul>
-					<li>Dyrektor Działu Analiz</li>
-					<li>Analityk Sprzedaży</li>
-					<li>Kierownik ds. Informacji Strategicznej i Prognoz Rynkowych </li>
+					<li>Dyrektor ds. Trade Marketingu</li>
+					<li>Dyrektor Zarządzania Kategorią</li>
+					<li>Trade Marketing Manager</li>
+					<li>Kierownik ds. Zarządzania Kategorią </li>
+					<li>Dyrektor Działu Analiz </li>
+					<li>Analityk ds. Sprzedaży</li>
+					<li>Dyrektor Działu Prognoz Rynkowyc</li>
+					<li>Dyrektor Działu Badań i Rozwoju </li>
+					<li>Analityk Badań Rynkowych </li>
+					<li>Specjalista ds. Prognoz Sprzedażowych</li>
 				</ul>
 			</div>
-
-
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>Sales analytics/Marketing</h2>
 				<ul>

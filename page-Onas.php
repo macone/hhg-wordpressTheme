@@ -20,7 +20,7 @@ get_header(); ?>
 					<li>Od 2001 r. prowadzimy rekrutacje <b>z obszaru Sales&Marketing</b></li>
 					<li>Monitorujemy kariery ponad <b>5000 topowych kandydatów</b></li>
 					<li>Posiadamy <b>referencje od najlepszych firm:</b> P&G, NIVEA, Tetley, Coty, Varta, Siemens, Otis, Colgate-Palmolive, Solvay Pharma i wielu innych</li>
-					<li>Dysponujemy aktualnymi kandydatów aktywnych na rynku pracy </li>
+					<li>Dysponujemy aktualnymi cv kandydatów aktywnych na rynku pracy </li>
 					<li>Prowadzimy <b>Klub Poleceń HHG</b>, którego członkowie - eksperci sprzedaży i marketingu - polecają nasze oferty pracy w swojej sieci kontaktów</li>
 				</ul>
 			</div>

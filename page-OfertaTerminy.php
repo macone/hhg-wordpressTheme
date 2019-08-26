@@ -55,8 +55,8 @@ get_header(); ?>
 				<h2>Target Search </h2>
 				<p>Sprawdzimy Kandydatów, którzy aktualnie pracują w firmach, wskazanych przez Klienta (metodologia rekomendowana dla maksymalnie 15 firm). </p>
 				<ul>
-						<li>Czas realizacji: 3 - 4 tygodnie.</li>
-						<li>Okres gwarancji: 6 m-cy. </li>
+						<li>Czas realizacji: 3 - 4 tygodnie</li>
+						<li>Okres gwarancji: 6 m-cy </li>
 				</ul>
 			</div>
 
@@ -88,8 +88,8 @@ get_header(); ?>
 				<h2>Wykorzystanie Baz HHG</h2>
 				<p>Wyselekcjonujemy z baz HHG Kandydatów odpowiadających potrzebom Klienta, przeprowadzimy ponowne spotkania z wybranymi Kandydatami i dostarczymy Klientowi dossier rekomendowanych osób. </p>
 				<ul>
-					<li>Czas realizacji: 2 - 4 tygodnie. </li>
-					<li>Okres gwarancji: 6 m-cy.</li>
+					<li>Czas realizacji: 2 - 4 tygodnie </li>
+					<li>Okres gwarancji: 6 m-cy</li>
 				</ul>
 				<button class="hhg-btn-outline">Sprawdź Bazy HHG <i class="fas fa-chevron-right"></i></button>
 			</div>
@@ -182,14 +182,7 @@ get_header(); ?>
 				</ul>
 
 
-				<p>Wspólnie z Klientem ustalamy listę firm i stanowisk, które należy objąć badaniem. 
-Badamy także profil Kandydatów zainteresowanych zmianą pracy:   </p>
-				<ul>
-					<li>Doświadczenie i kompetencje </li>
-					<li>Obecny zakres obowiązków</li>
-					<li>Obszar odpowiedzialności</li>
-					<li>Sukcesy i porażki na obecnym stanowisku </li>
-				</ul>
+				<p>Wspólnie z Klientem ustalamy listę firm i stanowisk, które należy objąć badaniem. </p>
 
 				<p>W trakcie badania uzyskujemy informacje o strukturze organizacyjnej w firmie Kandydata: </p>
 				<ul>

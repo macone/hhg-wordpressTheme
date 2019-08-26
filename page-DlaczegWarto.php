@@ -66,8 +66,7 @@ get_header(); ?>
 				<ul>
 					<li>profil psychologiczny</li>
 					<li>przebieg kariery</li>
-					<li>Zakres odpowiedzialności</li>
-					<li>Obowiązki</li>
+					<li>Obszary odpowiedzialności </li>
 					<li>System raportowania</li>
 					<li>Sukcesy i porażki</li>
 					<li>Silne/słabe strony kandydata na danym stanowisku
@@ -138,10 +137,10 @@ get_header(); ?>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
 				<h2>Udzielamy gwarancji</h2>
 				<p>Po 3, 6 i 12 miesiącach od zatrudnienia, kontaktujemy się z Klientem i Kandydatem (Placement Feedback). Upewniamy się, czy obie strony są zadowolone ze współpracy i reagujemy na ewentualne problemy. </p>
-				<h4>Candidates Guarantee </h4>
+				<h4>Gwarancja dla Kandydata </h4>
 				<p>Gwarantujemy, że jeśli z przyczyn niezależnych od nich samych rozwiążą współpracę z Klientem w czasie trwania okresu gwarancji, pomożemy im znaleźć nowe zatrudnienie. Mając poczucie bezpieczeństwa, Kandydaci chętniej decydują się na przejście do naszych Klientów. </p>
-				<h4>Customer Guarantee</h4>
-				<p>W przypadku niepowodzenia współpracy, gwarantujemy przeprowadzenie kolejnej, bezpłatnej rekrutacji.  </p>
+				<h4>Gwarancja dla Klienta</h4>
+				<p>W przypadku niepowodzenia współpracy, gwarantujemy przeprowadzenie kolejnej, bezpłatnej rekrutacji na to samo stanowisko.</p>
 			</div>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">

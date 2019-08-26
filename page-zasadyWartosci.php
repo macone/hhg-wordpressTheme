@@ -77,7 +77,7 @@ get_header(); ?>
 		<ul>
 			<li>Stworzyliśmy innowacyjny model komunikacji pomiędzy wszystkimi uczestnikami procesu rekrutacyjnego. Dzięki temu jesteś zawsze na bieżąco, bez zbędnego stresu.</li>
 			<li>Wypracowaliśmy metodologię, która minimalizuje ryzyko błędu. Uzyskujemy maksimum informacji o Twojej nowej pracy, ale także – o Tobie. Ty i Twój nowy pracodawca podejmujecie decyzję świadomie</li>
-			<li>Jeżeli mimo to okaże się, że Twoja decyzja o zmianie pracy była nietrafiona, pozostaniesz pod naszą opieką - pomożemy Ci znaleźć tę wymarzoną. </li>
+			<li>Jeżeli mimo to okaże się, że Twoja decyzja o zmianie pracy była nietrafiona, pozostaniesz pod naszą opieką - wesprzemy Cię w poszukiwaniach nowego pracodawcy. </li>
 		</ul>
 		<h4>Jak to wygląda w praktyce? 
 		</h4>
@@ -131,7 +131,7 @@ get_header(); ?>
 		<div class="row mt">
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
 				<h2>Gwarancja Bezpieczeństwa</h2>
-				<p>	Gwarantujemy Kandydatom, że jeśli z przyczyn niezależnych od nich samych rozwiążą współpracę z Klientem w okresie gwarancji, pomożemy im znaleźć nowe zatrudnienie.</p>
+				<p>	Gwarantujemy Kandydatom, że jeśli z przyczyn niezależnych od nich samych rozwiążą współpracę z Klientem w okresie gwarancji, wesprzemy Cię w poszukiwaniach nowego pracodawcy.</p>
 			</div>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
