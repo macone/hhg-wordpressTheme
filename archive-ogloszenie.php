@@ -146,16 +146,7 @@
 		
 		
 		
-		
-		
-		<style type="text/css">
-.auto-style1 {
-	text-align: left;
-}
-.auto-style2 {
-	text-align: center;
-}
-</style>
+	
 
 
 

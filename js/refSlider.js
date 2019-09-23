@@ -15,16 +15,10 @@ setInterval(()=>{
 			return
 		}
 	}
+	console.log(slides)
 },8000);
 
 let logos = $('.r-logo')
-
-console.log(Array.from(logos))
-Array.from(logos).forEach((element, index) => {
-	element.setAttribute('data-id',index);
-});
-
-
 logos.click((event)=>{
 	$(slides).fadeOut(200);
 	viewSlide = event.currentTarget.attributes[1].value
@@ -34,3 +28,14 @@ logos.click((event)=>{
 		.fadeIn(200);
 	},200)
 })
+
+Array.from(logos).forEach((element, index) => {
+	element.setAttribute('data-id',index);
+});
+
+// let logosParent = $('.r-logos')
+// console.log(logosParent)
+// console.log(logos)
+// logosParent[0].innerHTML = logos[0].outerHTML + logos[1].outerHTML + logos[1].outerHTML
+
+// let logos = $('.r-logo')

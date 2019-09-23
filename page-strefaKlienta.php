@@ -56,12 +56,12 @@ get_header(); ?>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
 				<h2>Przedstawiamy poszerzone dossier, obejmujące: </h2>
 				<ul>
-					<li>profil psychologiczny</li>
-					<li>przebieg kariery</li>
-					<li>kompetencje</li>
-					<li>kryteria wyboru nowej pracy</li>
-					<li>powody zmiany</li>
-					<li>oczekiwania finansowe</li>
+					<li>Profil psychologiczny</li>
+					<li>Przebieg kariery</li>
+					<li>Kompetencje</li>
+					<li>Kryteria wyboru nowej pracy</li>
+					<li>Powody zmiany</li>
+					<li>Oczekiwania finansowe</li>
 				</ul>
 				<a href="<?php echo get_permalink(1918); ?>"><button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 			</div>

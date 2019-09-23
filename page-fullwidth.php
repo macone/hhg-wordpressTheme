@@ -168,7 +168,39 @@ Najważniejsze we współpracy z HEADHUNTERS GROUP  jest to, że mają dużą wi
 			Dyrektor Zarządzający<br>
 			Bang & Olufsen Warszawa Centrum
 Sound and Vision Design Sp. z o.o</p>
+			</div>
 		</div>
+
+		<div class="r-slide">
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1.png">	</div>
+			<p class="quote polski">"Witam Pani Ewo,
+Z mojej strony podziękowania za bardzo profesjonalny oraz bardzo sprawny proces rekrutacyjny.
+Również kontakt z Panią, jak i informacje zwrotne na najwyższym poziomie.
+Dziękuję bardzo."</p>
+			<p class="quote angielski">"Helo Ewa,
+I would like to thank you for a very professional and efficient recruitment process.
+The communication with you and the feedback were top notch as well.
+Thank you very much."</p>
+			<p class="author"><b>Marcin Czurak</b><br>
+			National Sales Manager – Food Service<br>
+			Aviko Sp. z o.o.</p>
+		</div>
+
+		<div class="r-slide">
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim.png">	</div>
+			<p class="quote">"We have asked for HEADHUNTERS GROUP's professional support. Since the very beginning of our cooperation we were certain that the entire searching process was conducted in a very logical and well-thought-out way. The reasons for that were the perfect communication with Headhunters Group, complete understanding of our needs, and weekly reports summarizing the searching activities. This cooperation resulted in Profim hiring brilliant specialists, who perfectly match the needs of our global company.<br>
+We wholeheartedly recommend HEADHUNTERS GROUP. They are Professionals with a capital 'P'."
+			<p class="author"><b>Bożena Kowtun</b><br>
+			HR Business Partner<br>
+			PROFIM</p>
+		</div>
+
+		<div class="r-slide">
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/sopro.png">	</div>
+			<p class="quote">"I have worked with HEADHUNTER GROUP during recruitment processes for positions in sales and marketing. HEADHUNTERS GROUP supported us in finding correct candidates for managerial positions. Ewa Barańska – Chodkowska and the entire HHG team have shown great professionalism at each step of the recruitment, starting with the preparation of the process, collecting information about the company, its structure, positions' profile, through regular progress updates, and finally finding valuable candidates who to this day work with Sopro company."
+			<p class="author"><b>Karolina Szołoch</b><br>
+			HR Coordinator<br>
+			Sopro Polska Sp. z o.o.</p>
 		</div>
 
 		<div class="r-logos">
@@ -191,6 +223,9 @@ Sound and Vision Design Sp. z o.o</p>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2013/08/carrier-transicold-europe-L13023.gif">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/1000px-Otis_logo.SVG_.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/bang-olufsen-attention-logo.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/sopro.png">	</div>
 		</div>
 	</div>
 

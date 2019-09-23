@@ -64,8 +64,8 @@ get_header(); ?>
 				<h2>Przedstawiamy poszerzone dossier</h2>
 				<p>Dossier Kandydatów, których rekomendujemy, obejmuje: </p>
 				<ul>
-					<li>profil psychologiczny</li>
-					<li>przebieg kariery</li>
+					<li>Profil psychologiczny</li>
+					<li>Przebieg kariery</li>
 					<li>Obszary odpowiedzialności </li>
 					<li>System raportowania</li>
 					<li>Sukcesy i porażki</li>

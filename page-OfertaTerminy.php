@@ -159,9 +159,9 @@ get_header(); ?>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>Selection </h2>
-				<p>...</p>
+				<p>We will post the ad in media, select the best applications, meet the candidates and asses them focusing on the desired competences, check their references and prepare their files. </p>
 				<ul>
-					<li>Completion time: 2 – 4 weeks </li>
+					<li>Timeframe: 2 - 4 weeks</li>
 					<li>Guarantee period: 6 months</li>
 				</ul>
 			</div>

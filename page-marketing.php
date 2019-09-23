@@ -74,8 +74,8 @@ $myposts = get_posts( $args );
 	<p style="min-height: 189px"><?php echo $wypis; ?></p>
 	<p style="text-align: right">
 		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
-			<button class="pl hhg-btn-outline">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
-			<button class="en hhg-btn-outline">Go to offer<i class="fas fa-chevron-right"></i></button>
+			<button class="pl hhg-btn-solid">Przejdź do oferty<i class="fas fa-chevron-right"></i></button>
+			<button class="en hhg-btn-solid">Go to offer<i class="fas fa-chevron-right"></i></button>
 		</a>
 	</p>
 

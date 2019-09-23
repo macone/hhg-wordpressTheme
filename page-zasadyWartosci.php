@@ -125,8 +125,7 @@ get_header(); ?>
 
 		</div>
 	</div>
-
-
+	
 	<div class="container">
 		<div class="row mt">
 			<div class="col-md-12 col-lg-6 img-box-txt pl">

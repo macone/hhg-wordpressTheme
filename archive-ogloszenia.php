@@ -142,15 +142,7 @@
 		echo '</table>';
 		?>
 		
-		<div class="hr" style="margin: 7px"></div><style type="text/css">
-.auto-style1 {
-	text-align: left;
-}
-.auto-style2 {
-	text-align: center;
-}
-</style>
-
+		<div class="hr" style="margin: 7px"></div>
 
 
 <p class="auto-style1">Kandydatów zainteresowanych ofertą prosimy o przesłanie życiorysu  wraz z listem motywacyjnym z zaznaczeniem numeru referencyjnego, na adres:</p>

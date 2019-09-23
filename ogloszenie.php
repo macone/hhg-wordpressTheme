@@ -145,14 +145,6 @@
 		<div class="hr" style="margin: 7px"></div><
 		
 		
-		<style type="text/css">
-.auto-style1 {
-	text-align: left;
-}
-.auto-style2 {
-	text-align: center;
-}
-</style>
 
 
 

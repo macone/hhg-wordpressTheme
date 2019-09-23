@@ -48,13 +48,17 @@ get_header(); ?>
 				<ul class="pl">
 						<li>B2B</li>
 						<li>FMCG</li>
-						<li>HVAC</li>
+						<li>HVAC - Klimatyzacja, wentylacja, ogrzewnictwo, chłodnictwo</li>
 						<li>RTV/AGD</li>
-						<li>Technical Products & Solutions</li>
+						<li>Technical Products & Solutions/ Branża techniczna, produkty i rozwiązania</li>
+						<li>Branża Budowlana</li>
 						<li>Building & Construction</li>
 						<li>Reklama&Media </li>
 						<li>Farmacja</li>
 						<li>Packaging</li>
+						<li>Opakowania</li>
+						<li>Usługi</li>
+						<li>E-Commerce</li>
 				</ul>
 				<ul class="en">
 					<li>B2B</li>
@@ -148,15 +152,16 @@ get_header(); ?>
 			<div class="card">
 				<div class="card-body">
 					<h3 class="card-title">General & Operations Management</h3>
-					<ul class="pl">
+					<!-- <ul class="pl">
 						<li>Prezes Zarządu </li>
 						<li>Dyrektor Zarządzający</li>
 						<li>Dyrektor Operacyjny </li>
 						<li>Dyrektor Sprzedaży i Marketingu </li>
 						<li>Dyrektor Biznes Unit </li>
-					</ul>
+					</ul> -->
 
-					<ul class="en">
+					<!-- <ul class="en"> -->
+					<ul>
 						<li> President of the Board </li>
 						<li> Managing Director </li>
 						<li> Operational Director </li>
