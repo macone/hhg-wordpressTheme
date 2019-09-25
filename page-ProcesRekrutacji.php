@@ -34,7 +34,7 @@ get_header(); ?>
 									<li>Spotkanie z klientem </li>
 									<li>Przygotowanie strategii rekrutacji </li>
 									<li>Potwierdzenie kierunku poszukiwań z klientem  </li>
-									<li><b>Administracja projektowa</b>  </li>
+									<li>Administracja projektowa  </li>
 							</ul>
 						</div>
 
@@ -44,7 +44,7 @@ get_header(); ?>
 									<li>Brief, meeting with the Client</li>
 									<li>Preparing a recruitment strategy</li>
 									<li>Confirming the search angles with the Client </li>
-									<li><b>+ Project Administration</b>  </li>
+									<li>+ Project Administration  </li>
 							</ul>
 						</div>
 
@@ -66,8 +66,8 @@ get_header(); ?>
 							<h3 class="title">Klub poleceń</h3>
 							<ul class="description">
 									<li>Kontakt z kandydatami z klubu poleceń </li>
-									<li><b>Werifikacja kandydatów</b> w aktywnych bazach HHG</li>
-									<li><b>Sprawdzanie firm</b> z search listy  </li>
+									<li>Werifikacja kandydatów w aktywnych bazach HHG</li>
+									<li>Sprawdzanie firm z search listy  </li>
 							</ul>
 						</div>
 
@@ -90,9 +90,9 @@ get_header(); ?>
 						<div class="timeline-content pl">
 							<h3 class="title">Weryfikacja</h3>
 							<ul class="description">
-									<li><b>Weryfikacja aplikacji</b>  napływających z ogłoszenia ze strony i Linkedin</li>
+									<li>Weryfikacja aplikacji  napływających z ogłoszenia ze strony i Linkedin</li>
 									<li>Ofertowanie kandydatów, przedstwinie ofert pracy kandydatom wyszukanym z użyciem direct search </li>
-									<li><b>Wstępna weryfikacja kandydatur</b>, potwierdzenie kompetencji i doświadczeń kandydatów</li>
+									<li>Wstępna weryfikacja kandydatur, potwierdzenie kompetencji i doświadczeń kandydatów</li>
 							</ul>
 						</div>
 
@@ -122,8 +122,8 @@ get_header(); ?>
 						<div class="timeline-content pl">
 							<h3 class="title">Interviews</h3>
 							<ul class="description">
-									<li><b>Interviews</b> z wybranymi kandydatami </li>
-									<li><b>Tworzenie dossier kandydatów</b> </li>
+									<li>Interviews z wybranymi kandydatami </li>
+									<li>Tworzenie dossier kandydatów </li>
 							</ul>
 						</div>
 
@@ -145,7 +145,7 @@ get_header(); ?>
 							<ul class="description">
 								<li>Testy umiejętności i kompetencji  </li>
 								<li>Case study</li>
-								<li><b>Weryfikacja referencji</b></li>
+								<li>Weryfikacja referencji</li>
 							</ul>
 						</div>
 
@@ -176,14 +176,14 @@ get_header(); ?>
 						<div class="timeline-content pl">
 							<h3 class="title">Interview u klienta</h3>
 							<ul class="description">
-									<li><b>Wymiana feedbacków pomiędzy klientem a kandydatem po spotkaniach </b></li>
+									<li>Wymiana feedbacków pomiędzy klientem a kandydatem po spotkaniach </li>
 							</ul>
 						</div>
 
 						<div class="timeline-content en">
 							<h3 class="title">Interview at the Clients office</h3>
 							<ul class="description">
-									<li><b>Feedback exchange</b></li>
+									<li>Feedback exchange</li>
 							</ul>
 						</div>
 
@@ -196,14 +196,14 @@ get_header(); ?>
 						<div class="timeline-content pl">
 							<h3 class="title">Podpisanie umowy z kandydatem </h3>
 							<ul class="description">
-									<li><b>Negocjacje warunków zatrudnienia i podpisanie umowy z kandydatem </b></li>
+									<li>Negocjacje warunków zatrudnienia i podpisanie umowy z kandydatem </li>
 							</ul>
 						</div>
 
 						<div class="timeline-content en">
 							<h3 class="title">Signing a contract with the Candidate</h3>
 							<ul class="description">
-									<li><b>Negotiations terms of employment and signing a contract with the candidate </b></li>
+									<li>Negotiations terms of employment and signing a contract with the candidate </li>
 							</ul>
 						</div>
 

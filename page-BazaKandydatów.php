@@ -121,7 +121,7 @@ get_header(); ?>
 						<li>Dyrektor Marketingu </li>
 						<li>Dyrektor Komunikacji i Mediów </li>
 						<li>Dyrektor Marketingu i PR</li>
-						<li>Marketing Manage</li>
+						<li>Marketing Manager</li>
 						<li>Digital Marketing Manager</li>
 						<li>Kierownik ds. Mediów Społecznościowych </li>
 						<li>Kierownik Marketingu Grupy Produktowej</li>

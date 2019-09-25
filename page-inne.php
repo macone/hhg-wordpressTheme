@@ -68,7 +68,7 @@ $myposts = get_posts( $args );
 		<p><strong>Podległy zespół: </strong><?php echo $podleglyzespol; ?></p>
 		<p><strong>Lokalizacja: </strong><?php echo $lokalizacja; ?></p>
 		<p><strong>Kraj: </strong><?php echo $kraj; ?></p>
-		<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+		<h5 style="margin-top:50px;">Oferta pracy:</h5>
 		<p style="min-height: 189px"><?php echo $wypis; ?></p>
 		<p style="text-align: right">
 			<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">

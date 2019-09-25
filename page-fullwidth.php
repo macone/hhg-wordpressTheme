@@ -36,7 +36,7 @@ get_header(); ?>
 			Solvay Pharma, Polska</p>
 		</div>
 		<div class="r-slide">
-				<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l6.png">	</div>
+				<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/carrier-logo-1.jpg">	</div>
 				<p class="quote">Z pełnym przekonaniem polecam HEADHUNTERS GROUP jako profesjonalnego, rzetelnego i wiarygodnego partnera biznesowego.
 				</p>
 				<p class="author"><b>Maciej Marunowski</b><br>
@@ -59,7 +59,7 @@ get_header(); ?>
 			Koegel Polska Sp. z o.o.</p>
 		</div>
 		<div class="r-slide">
-			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l4.png">	</div>
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/4JTnNlsy_400x400-e1569403269317.png">	</div>
 			<p class="quote">HEADHUNTERS GROUP wyróżnia się bardzo indywidualnym podejściem do potrzeb klienta, bardzo dobrą znajomością branży marketingu bezpośredniego oraz dużym zaangażowaniem w cały proces rekrutacji.
 Nadal chętnie będziemy korzystać z usług HEADHUNTERS GROUP i liczymy na dalszą owocną współpracę</p>
 			<p class="author"><b>Adam Zieliński</b><br>
@@ -67,7 +67,7 @@ Nadal chętnie będziemy korzystać z usług HEADHUNTERS GROUP i liczymy na dals
 			Skarbnica Narodowa Sp. z o.o.</p>
 		</div>
 		<div class="r-slide">
-			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l12.png">	</div>
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/nycomedlogo.png">	</div>
 			<p class="quote">Rekomendowani przez Headhunters Group kandydaci zostali zatrudnieni w firmie Nycomed i pracują już od kilku miesięcy. Mamy co do nich duże wymagania Jesteśmy z nich bardzo zadowoleni.
 Trafność charakterystyki sporządzonej przez Headhunters dla obu zatrudnionych osób całkowicie potwierdziła się, jak również przedstawione referencje. Oba projekty rekrutacyjne okazały się bardzo udane.
 			</p>
@@ -133,7 +133,7 @@ Najważniejsze we współpracy z HEADHUNTERS GROUP  jest to, że mają dużą wi
 		</div>
 
 		<div class="r-slide">
-			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Colgate_palmolive_logo_emblem_logotype.png">	</div>
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Colgate-MSA-e1569402227346.png">	</div>
 			<p class="quote">"Wysoko cenię również solidne przygotowanie przed rozpoczęciem procesu rekrutacji, czas poświecony na spotkania z kierownikami i starania, aby jak najlepiej zrozumieć potrzeby i kulturę wewnętrzną klienta. To procentuje w późniejszej współpracy i znakomicie ułatwia komunikacje w trakcie procesu."
 			<p class="author"><b>Agnieszka Tomczak</b><br>
 			HR Manager<br>
@@ -172,7 +172,7 @@ Sound and Vision Design Sp. z o.o</p>
 		</div>
 
 		<div class="r-slide">
-			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1.png">	</div>
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1-e1569402123721.png">	</div>
 			<p class="quote polski">"Witam Pani Ewo,
 Z mojej strony podziękowania za bardzo profesjonalny oraz bardzo sprawny proces rekrutacyjny.
 Również kontakt z Panią, jak i informacje zwrotne na najwyższym poziomie.
@@ -187,7 +187,7 @@ Thank you very much."</p>
 		</div>
 
 		<div class="r-slide">
-			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim.png">	</div>
+			<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim-e1569402273543.png">	</div>
 			<p class="quote">"We have asked for HEADHUNTERS GROUP's professional support. Since the very beginning of our cooperation we were certain that the entire searching process was conducted in a very logical and well-thought-out way. The reasons for that were the perfect communication with Headhunters Group, complete understanding of our needs, and weekly reports summarizing the searching activities. This cooperation resulted in Profim hiring brilliant specialists, who perfectly match the needs of our global company.<br>
 We wholeheartedly recommend HEADHUNTERS GROUP. They are Professionals with a capital 'P'."
 			<p class="author"><b>Bożena Kowtun</b><br>
@@ -207,11 +207,11 @@ We wholeheartedly recommend HEADHUNTERS GROUP. They are Professionals with a cap
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/meadwest.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Siemens-logo-transparent-png.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/solvay-pharma-1.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l6.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/carrier-logo-1.jpg">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/Varta-Logo.svg_-e1557960963372.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l7.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l4.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l12.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/4JTnNlsy_400x400-e1569403269317.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/nycomedlogo.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l9.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l10.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/IQ-MArketing-e1557961391281.jpg">	</div>
@@ -219,12 +219,12 @@ We wholeheartedly recommend HEADHUNTERS GROUP. They are Professionals with a cap
 
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/Raisio_logo.svg_.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Colgate_palmolive_logo_emblem_logotype.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Colgate-MSA-e1569402227346.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2013/08/carrier-transicold-europe-L13023.gif">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/1000px-Otis_logo.SVG_.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/bang-olufsen-attention-logo.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1.png">	</div>
-			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1-e1569402123721.png">	</div>
+			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim-e1569402273543.png">	</div>
 			<div class="r-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/sopro.png">	</div>
 		</div>
 	</div>

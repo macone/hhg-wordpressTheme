@@ -14,9 +14,23 @@
 /* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800&display=swap&subset=latin-ext');
 
-html body {
-  /* font-size:14px; */
+* {
+	font-size:18px;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+#cv a {
+	font-size:3rem;
+}
+.dropdown-item {
+	font-weight: 600;
+}
+
+
+html body {
+
+
 	overflow-x: hidden;
 }
 
@@ -34,8 +48,13 @@ h3 {
 	font-size: 1.5rem;
 }
 
+h3>a{
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
 .head-txt {
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-weight: 700;
 	text-align: center;
 	line-height: 30px;
@@ -173,14 +192,14 @@ h3 {
 	align-self: center;
 }
 .main-timeline .title{
- font-size: 24px;
+ font-size: 1.4;
  font-weight: bold;
  color: #db9f6a;
  text-align: center;
  margin: 0 0 7px 0;
 }
 .main-timeline .description{
- font-size: 14px;
+ font-size: 1rem;
  color: #959595;
  line-height: 24px;
  margin: 0;
@@ -196,7 +215,7 @@ h3 {
 }
 .main-timeline .etap{
  display: inline-block;
- font-size: 40px;
+ font-size: 2.2rem;
  font-weight: bold;
  line-height: 36px;
  color: #797979;
@@ -277,7 +296,7 @@ body.home #slider-wrapper {
 
 .slider-head > h1 {
 	color: #000;
-	font-size:32px;
+	font-size:1.5rem;
 	line-height: 46px;
 	font-weight: 700;
 	background-color: #fff7;
@@ -419,7 +438,7 @@ font-size: 1rem;
 
 .quote {
 	text-align: center;
-	font-size:22px;
+	font-size:1.2rem;
 	font-style: italic;
 }
 
@@ -436,7 +455,7 @@ font-size: 1rem;
 .r-logo {
 	width: 7.5%;
 	height: auto;
-	filter: grayscale(100%);
+	/* filter: grayscale(100%); */
 	opacity: 0.8;
 	transition: ease-in-out all 300ms;
 	cursor: pointer;
@@ -445,7 +464,7 @@ font-size: 1rem;
 
 .r-logo:hover {
 	width: 10%;
-	filter: grayscale(10%);
+	/* filter: grayscale(10%); */
 	opacity:1
 }
 
@@ -562,7 +581,7 @@ font-size: 1rem;
 
 
 .num-text {
-	font-size: 26px;
+	font-size: 1.3rem;
 	text-align: center;
 	font-weight: 700;
 	display: flex;
@@ -572,10 +591,11 @@ font-size: 1rem;
 }
 
 .head-num {
-	font-size: 80px;
+	font-size: 4.5rem;
 	text-align: center;
 	font-weight: 700;
 	color: #E29D65;
+	margin-bottom: 30px;
 }
 
 .num-text:first-child {
@@ -637,7 +657,7 @@ svg.bottom {
 }
 .quotes-bg:after {
 	content: '';
-	font-size: 100px;
+	font-size: 5.5rem;
 	position: absolute
 }
 
@@ -680,7 +700,7 @@ svg.bottom {
 .job-offer-single .top-offer{
 	color: #9F6233; 
 	text-align:center;
-	font-size: 10px;
+	font-size: 0.6rem;
 	width:5rem;
 }
 
@@ -695,11 +715,11 @@ svg.bottom {
 
 .offer-list:before {
 	content: " ";
-	width: 50px;
-	height: 1px;
-	background-color: #9F6233;
-	left: -65px;
-	top: 45%;
+	width: 15px;
+	height: 15px;
+	background-color: #9F623355;
+	left: -35px;
+	top: 7px;
 	position: absolute;
 }
 
@@ -807,7 +827,7 @@ svg.bottom {
 
 }
 #logo{
-  /* margin: auto; */
+  width:30%;
 }
 #logo > img {
   width:90%;
@@ -915,7 +935,7 @@ nav.navbar.navbar-brand {
 
 	.logo h1,
 	.logo h2 {
-		font-size:3.615em;
+		font-size:3.615rem;
 		line-height:1.2em;
 		letter-spacing:-1px;
 		margin:0;
@@ -1002,7 +1022,7 @@ nav.navbar.navbar-brand {
 	.box-button {
 		float:right;
 		background:#dbdbdb;
-		font-size:21px;
+		font-size:1.2rem;
 		color:#fff;
 		text-decoration:none;
 		padding:10px;
@@ -1018,7 +1038,7 @@ nav.navbar.navbar-brand {
 
 
 .small-p p {
-	font-size: 11px
+	font-size: 0.8rem;
 }
 
 

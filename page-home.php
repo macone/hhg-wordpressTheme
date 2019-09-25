@@ -70,7 +70,7 @@ get_header(); ?>
 
 							<div class="col-md-2 mb-2">
 									<div class="card">
-										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/solvay-pharma-1.png">	
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/solvey_logo.jpg">	
 									</div>
 							</div>
 							<div class="col-md-2 mb-2">
@@ -85,7 +85,7 @@ get_header(); ?>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l4.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/4JTnNlsy_400x400-e1569403269317.png">
 								</div>
 							</div>
 						</div>
@@ -98,7 +98,7 @@ get_header(); ?>
 						<div class="recomend-logo">
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/l12.png">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/nycomedlogo.png">
 								</div>
 							</div>
 	
@@ -125,7 +125,7 @@ get_header(); ?>
 							</div>
 							<div class="col-md-2 mb-2">
 								<div class="card">
-									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/2000px-Procter_and_Gamble_Logo.svg_.png">	
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/PandG.png">	
 								</div>
 							</div>
 						</div>
@@ -208,7 +208,7 @@ $mypostsa = get_posts( $argsa );
 	<p><strong>Podległy zespół: </strong><?php echo $podleglyzespol; ?></p>
 	<p><strong>Lokalizacja: </strong><?php echo $lokalizacja; ?></p>
 	<p><strong>Kraj: </strong><?php echo $kraj; ?></p>
-	<h5 style="margin-top:50px;">Cel Stanowiska:</h5>
+	<h5 style="margin-top:50px;">Oferta pracy:</h5>
 	<p style="min-height: 189px"><?php echo $wypis; ?></p>
 	<p style="text-align: right">
 		<a href="<?php the_permalink(); ?>" style="text-decoration: none; color: gray">
