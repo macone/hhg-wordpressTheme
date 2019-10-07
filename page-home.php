@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="container flex flex-column"> 
 	<div class="col-md-12 align-items-center">
-	<img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="mx-auto d-block" alt="">
+	<img src="<?php bloginfo('template_url'); ?>/images/logo_main.png" class="mx-auto d-block logo-main" alt="">
 	</div> 
 <div class="row head-txt pl">od 2001 roku obsadzamy kluczowe stanowiska w obszarze Marketingu i Sprzedaży w branżach:<br> B2B, FMCG, Farmacja, Packaging, Bulding & Construction, Reklama i Media, RTV/AGD</div>
 
@@ -132,6 +132,100 @@ get_header(); ?>
 					</div>
 					<!--/.Second slide-->
 
+					<!--third slide-->
+					<div class="carousel-item">
+						<div class="recomend-logo">
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/carrier-logo-1.jpg">
+								</div>
+							</div>
+	
+							<div class="col-md-2 mb-2">
+									<div class="card">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/Raisio_logo.svg_.png">
+									</div>
+							</div>
+	
+							<div class="col-md-2 mb-2">
+									<div class="card">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/Colgate-MSA-e1569402227346.png">
+									</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/1000px-Otis_logo.SVG_.png">
+								</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/aviko-logo-2008_800-1-e1569402123721.png">
+								</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/profim-e1569402273543.png">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/.third slide-->
+
+					<!--Fourth slide-->
+					<div class="carousel-item">
+						<div class="recomend-logo">
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/10/93827.jpg">
+								</div>
+							</div>
+	
+							<div class="col-md-2 mb-2">
+									<div class="card">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/bang-olufsen-attention-logo.png">
+									</div>
+							</div>
+	
+							<div class="col-md-2 mb-2">
+									<div class="card">
+										<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/02/Pfleiderer_Grajewo.jpg">
+									</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2013/08/hoval-logo1.png">
+								</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/tetley1-e1569402210859.png">
+								</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/02/narbutas-logo.jpg">	
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/.fourth slide-->
+										<!--fifth slide-->
+										<div class="carousel-item">
+						<div class="recomend-logo">
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/feedback-diam-BEZ-RAMKI.png">
+								</div>
+							</div>
+							<div class="col-md-2 mb-2">
+								<div class="card">
+									<img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/02/Savencia1.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/.Fifth slide-->
+
 				</div>
 				<!--/.Slides-->
 
@@ -201,7 +295,7 @@ $mypostsa = get_posts( $argsa );
 		<?php the_title(); ?>		</a>
 	</h3>
 	<p class="">
-		<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+		<span class="ref-nr">Nr Ref. <?php echo $nrref; ?></span>
 	</p>
 	<p><strong>Dział: </strong><?php echo $dzial; ?></p>
 	<p><strong>Raportuje do: </strong><?php echo $raportujedo; ?></p>

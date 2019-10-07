@@ -28,7 +28,7 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
 				<h2>Bazy HHG</h2>
-					<p>W bazach HEADHUNTERS GROUP znajduje się ponad 16 000 ekspertów Sprzedaży i Marketingu. </p>
+					<p>W bazach HEADHUNTERS GROUP znajduje się ponad 16&nbsp;000 ekspertów Sprzedaży i Marketingu. </p>
 				<ul>
 					<li>Skupiamy się wyłącznie na Kandydatach aktywnych zawodowo</li>
 					<li>Nasi Kandydaci zajmują kluczowe stanowiska w obszarze Sprzedaży i Marketingu</li>
@@ -157,7 +157,7 @@ get_header(); ?>
 					<li>Kierownik ds. Zarządzania Kategorią </li>
 					<li>Dyrektor Działu Analiz </li>
 					<li>Analityk ds. Sprzedaży</li>
-					<li>Dyrektor Działu Prognoz Rynkowyc</li>
+					<li>Dyrektor Działu Prognoz Rynkowych</li>
 					<li>Dyrektor Działu Badań i Rozwoju </li>
 					<li>Analityk Badań Rynkowych </li>
 					<li>Specjalista ds. Prognoz Sprzedażowych</li>
@@ -196,3 +196,4 @@ $(function(){
 });
 </script>
 
+<?php get_footer(); ?>

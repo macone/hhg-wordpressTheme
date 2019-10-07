@@ -45,7 +45,7 @@ class MY_PostWidget extends WP_Widget {
 								?>
 								
 								<div id="oglhome<?php echo $licznik; ?>" style="display: none">
-								<a href="<?php the_permalink(); ?>"><b><?php the_title(); ?></b></a> <span style="color: gray; font-size: 11px"></span>
+								<a href="<?php the_permalink(); ?>"><b><?php the_title(); ?></b></a> <span class="ref-nr"></span>
 								<p><?php echo $wypis; ?></p>
 								
 								<p style="text-align: right">

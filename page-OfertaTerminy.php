@@ -252,3 +252,4 @@ $(function(){
 	}, 500);
 });
 </script>
+<?php get_footer(); ?>

@@ -172,6 +172,7 @@ get_header(); ?>
 </section>
 
 
+
 <script>
 $(function(){ 
 	$('.row').hide()
@@ -188,3 +189,5 @@ $(function(){
 	}, 500);
 });
 </script>
+
+<?php get_footer(); ?>

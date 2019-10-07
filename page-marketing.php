@@ -63,7 +63,7 @@ $myposts = get_posts( $args );
 		<?php the_title(); ?>		</a>
 	</h3>
 	<p class="">
-			<span style="color: gray; font-size: 11px">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
+			<span class="ref-nr">Nr Ref. <?php echo $nrref.' / '.$data_dodania; ?></span>
 	</p>
 	<p><strong>Dział: </strong><?php echo $dzial; ?></p>
 	<p><strong>Raportuje do: </strong><?php echo $raportujedo; ?></p>

@@ -32,7 +32,7 @@
 							<div class="footer-img-logo"><?php if(of_get_option('logo_url') != ''){ ?>
 								<a href="<?php bloginfo('url'); ?>/"><img src="<?php echo of_get_option('logo_url', "" ); ?>" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
 							  <?php } else { ?>
-								<a href="<?php bloginfo('url'); ?>/"><img width="185" height="81" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>" style="margin: -10px 0 0 -10px"></a>
+								<a href="<?php bloginfo('url'); ?>/"><img width="185" height="81" src="<?php bloginfo('template_url'); ?>/images/logo_main.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>" style="margin: -10px 0 0 -10px"></a>
 							  <?php } ?></div>
 						
 					   <?php } ?>	

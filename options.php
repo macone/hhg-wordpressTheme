@@ -11,7 +11,7 @@ function optionsframework_option_name() {
 	// This gets the theme name from the stylesheet (lowercase and without spaces)
 	$themename = get_theme_data(STYLESHEETPATH . '/style.css');
 	$themename = $themename['Name'];
-	$shortname = "theme1407";
+	$shortname = "checkme";
 	$themename = preg_replace("/\W/", "", strtolower($themename) );
 	
 	$optionsframework_settings = get_option('optionsframework');
@@ -150,7 +150,7 @@ function optionsframework_options() {
 						"options" => $logo_type);
 	
 	$options[] = array( "name" => "Logo URL",
-						"desc" => "Enter the direct path to your logo image. For example http://your_website_url_here/wp-content/themes/theme1407/images/logo.png",
+						"desc" => "Enter the direct path to your logo image. For example http://your_website_url_here/wp-content/themes/theme1407/images/logo_main.png",
 						"id" => "logo_url",
 						"type" => "upload");
 	

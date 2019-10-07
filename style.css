@@ -200,7 +200,7 @@ h3>a{
 }
 .main-timeline .description{
  font-size: 1rem;
- color: #959595;
+ color: #000;
  line-height: 24px;
  margin: 0;
 }
@@ -218,7 +218,7 @@ h3>a{
  font-size: 2.2rem;
  font-weight: bold;
  line-height: 36px;
- color: #797979;
+ color: #000;
  position: relative;
  top: -6px;
 }
@@ -227,6 +227,7 @@ h3>a{
 .img-box-50 {
 	width:50%;
 	margin-bottom: 20px;
+	border-radius: 50%;
 }
 
 /* ogloszenia - nie używane
@@ -239,7 +240,10 @@ h3>a{
 	min-height: 65px
 }
 
-
+.logo-main {
+	width: 285px;
+	margin-bottom: 20px;
+}
 
 /* Slider
 ---------------------------------------- */
@@ -373,6 +377,16 @@ font-size: 1rem;
 
 /* referencje */
 
+#referencje .fas {
+	margin:0 30px;
+	color: #e29d65;
+}
+
+
+.ref-nr {
+	color: gray;
+	font-size: 0.8rem;
+}
 
 .full-page {
 	width: 100vw;
@@ -382,11 +396,19 @@ font-size: 1rem;
 	justify-content: center;
 	align-items: center;
 }
+.slider-grand{
+display: flex;
+height: 100%;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
 
 .r-slider-parent{
 	width: 60%;
 	height: 100%;
 	display: flex;
+	position: relative;
 }
 
 .r-slide {
@@ -445,21 +467,21 @@ font-size: 1rem;
 .r-logos {
 	flex-grow: 1;
 	display: flex;
-	flex-wrap: wrap;
-	width: 60%;
+	width: 80%;
+	height: 141px;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 5%;
 }
 
 .r-logo {
-	width: 7.5%;
+	width: 9.5%;
 	height: auto;
 	/* filter: grayscale(100%); */
 	opacity: 0.8;
 	transition: ease-in-out all 300ms;
 	cursor: pointer;
-	margin: 5px;
+	margin: 10px;
 }
 
 .r-logo:hover {
@@ -467,6 +489,7 @@ font-size: 1rem;
 	/* filter: grayscale(10%); */
 	opacity:1
 }
+
 
 
 
@@ -833,10 +856,14 @@ svg.bottom {
   width:90%;
 }
 
+ul#menu-header-menu {
+	flex-wrap: nowrap;
+}
+
 ul#menu-header-menu>* {
   margin: auto;
   font-size:0.8rem;
-  font-weight: 700;  
+	font-weight: 700;  
 }
 
 .dropdown-menu {

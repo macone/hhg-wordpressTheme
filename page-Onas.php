@@ -15,7 +15,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
-				<div class="logo-img "><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
+				<div class="logo-img mb-3"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
 				<ul>
 					<li>Od 2001 r. prowadzimy rekrutacje <b>z obszaru Sales&Marketing</b></li>
 					<li>Monitorujemy kariery ponad <b>5000 topowych kandydatów</b></li>
@@ -25,7 +25,7 @@ get_header(); ?>
 				</ul>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt en">
-				<div class="logo-img en"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
+				<div class="logo-img en mb-3"><img src="<?php bloginfo('template_url'); ?>/images/logo_main.png"></div> 
 				<ul>
 					<li>We have been organizing recruitment processes for Sales&Marketing since 2001</li>
 					<li>We monitor the careers of over 5000 top candidates</li>
@@ -52,10 +52,8 @@ get_header(); ?>
 						<li>RTV/AGD</li>
 						<li>Technical Products & Solutions/ Branża techniczna, produkty i rozwiązania</li>
 						<li>Branża Budowlana</li>
-						<li>Building & Construction</li>
 						<li>Reklama&Media </li>
 						<li>Farmacja</li>
-						<li>Packaging</li>
 						<li>Opakowania</li>
 						<li>Usługi</li>
 						<li>E-Commerce</li>
@@ -192,3 +190,5 @@ $(function(){
 	}, 500);
 });
 </script>
+
+<?php get_footer(); ?>
