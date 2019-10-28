@@ -91,7 +91,7 @@ get_header(); ?>
 							<h3 class="title">Weryfikacja</h3>
 							<ul class="description">
 									<li>Weryfikacja aplikacji  napływających z ogłoszenia ze strony i Linkedin</li>
-									<li>Ofertowanie kandydatów, przedstwinie ofert pracy kandydatom wyszukanym z użyciem direct search </li>
+									<li>Ofertowanie kandydatów, przedstawienie  ofert pracy kandydatom wyszukanym z użyciem direct search </li>
 									<li>Wstępna weryfikacja kandydatur, potwierdzenie kompetencji i doświadczeń kandydatów</li>
 							</ul>
 						</div>
@@ -101,7 +101,7 @@ get_header(); ?>
 							<ul class="description">
 									<li>Verifying the applications submitted in response to the advertisements on the website and Linkedin</li>
 									<li>Contacting the candidates, presenting the job offer to candidates found using direct search</li>
-									<li>Preliminary Candidates Verification, confirming candidate’s competences and experience</li>
+									<li>Preliminary Candidates Verification, confirming candidates’ competences and experience</li>
 							</ul>
 						</div>
 
@@ -131,7 +131,7 @@ get_header(); ?>
 							<h3 class="title">Interviews</h3>
 							<ul class="description">
 									<li>Interviews with selected candidates </li>
-									<li>Creating Candidates’ Files </li>
+									<li>Creating Candidates’ files </li>
 							</ul>
 						</div>
 					</div>
@@ -183,7 +183,7 @@ get_header(); ?>
 						<div class="timeline-content en">
 							<h3 class="title">Interview at the Clients office</h3>
 							<ul class="description">
-									<li>Feedback exchange</li>
+									<li>Feedback exchange between the Client and the Candidate </li>
 							</ul>
 						</div>
 

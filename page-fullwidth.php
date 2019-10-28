@@ -233,14 +233,6 @@ get_header(); ?>
 						Central European Markets</p>
 				</div>
 		
-				<div class="r-slide">
-					<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/09/sopro.png">	</div>
-						<p class="quote">"I have worked with HEADHUNTER GROUP during recruitment processes for positions in sales and marketing. HEADHUNTERS GROUP supported us in finding correct candidates for managerial positions. Ewa Barańska – Chodkowska and the entire HHG team have shown great professionalism at each step of the recruitment, starting with the preparation of the process, collecting information about the company, its structure, positions' profile, through regular progress updates, and finally finding valuable candidates who to this day work with Sopro company."
-						<p class="author"><b>Karolina Szołoch</b><br>
-						HR Coordinator<br>
-						Sopro Polska Sp. z o.o.</p>
-				</div>
-		
 		
 				<div class="r-slide">
 					<div class="r-main-logo"> <img class="img-fluid" src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/02/Savencia1.png">	</div>

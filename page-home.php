@@ -238,7 +238,7 @@ get_header(); ?>
 			<div class="col-7 en"><p>From 2001 we have been selecting candidates for the key positions in Sales and Marketing, in areas such as: B2B, FMCG, Pharmacy, Packaging, Building and Construction, Advertising and Media, Electronic and Household Appliances. </p>
 			</div>
 			<div class="col-5">
-				<a href="<?php echo get_permalink(596); ?>"><button class='hhg-btn-outline pl'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(1920); ?>"><button class='hhg-btn-outline pl'>Oferta dla klientów <i class="fas fa-chevron-right"></i></button>
 				<button class='hhg-btn-outline en'>Our Offer <i class="fas fa-chevron-right"></i></button></a>
 				<a href="<?php echo get_permalink(578); ?>"><button class='mt-1 hhg-btn-outline pl'>Rekomendacje <i class="fas fa-chevron-right"></i></button>
 				<button class='mt-1 hhg-btn-outline en'>Recommendations <i class="fas fa-chevron-right"></i></button></a>
@@ -435,9 +435,9 @@ Weekly reports sent by Headhunteers Group over the course of the project left no
 				<h4 style="margin-bottom: 20px" class="en">You haven’t found anything suitable for you? Describe your expectations and</h4>
 			</div>
 			<div class="offset-2 row">
-				<h2 class="pl" style="margin-bottom: 20px"><a href="http://127.0.0.1/?page_id=668"> Zostaw swoje CV</a></h2>
+				<h2 class="pl" style="margin-bottom: 20px"><a href="<?php echo get_permalink(668); ?>"> Zostaw swoje CV</a></h2>
 
-				<h2 class="en" style="margin-bottom: 20px"><a href="http://127.0.0.1/?page_id=668"> send your CV</a></h2>
+				<h2 class="en" style="margin-bottom: 20px"><a href="<?php echo get_permalink(668); ?>"> send your CV</a></h2>
 			</div>
 					
 			<div class="offset-4 row">

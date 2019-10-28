@@ -52,15 +52,15 @@ get_header(); ?>
 		</div>
 		<div class="col-2 hhg-icon">
 			<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/36-job-interview-employee-table-business-office-job.png" alt="">
-			<p>Helping the Candidate during the recruitment process as well as after its completion</p>
+			<p>Candidates protection during and after the recruitment process</p>
 		</div>
 		<div class="col-2 hhg-icon">
 			<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/5-project-manager-team-people-business-office-corporation.png" alt="">
-			<p>Supporting candidates, whose decision to change jobs was not the best choice</p>
+			<p>Supporting candidates, whose decision to change jobs proved to be unlucky</p>
 		</div>
 		<div class="col-2 hhg-icon">
 			<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/05/9-satisfied-customer-like-client-business-office-corporation.png" alt="">
-			<p>Joint cooperation assessment </p>
+			<p>Joint co&#8209;operation evaluation</p>
 		</div>
 	</div>
 

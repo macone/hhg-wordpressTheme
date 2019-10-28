@@ -46,12 +46,12 @@ get_header(); ?>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>We check each candidate’s reference on 4 levels.</h2>
-				<p>We check each candidate’s reference on 4 levels. This allows you to reduce of risk of employment by 70%. As part of our research we conduct interviews with:</p>
+				<p>We check each candidate’s reference on 4 levels. This allows you to reduce the employment-related risk by 70%. As part of our research we conduct interviews with:</p>
 				<ul>
 					<li>The most recent superior</li>
 					<li>1-2 co-workers</li>
 					<li>Subordinate</li>
-					<li>External contractor</li>
+					<li>External client</li>
 				</ul>
 			</div>
 		</div>
@@ -82,7 +82,7 @@ get_header(); ?>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>We present extended file</h2>
-				<p>The files of Candidates who we recommend include: </p>
+				<p>The files of Candidates whom we recommend include: </p>
 				<ul>
 					<li>Psychological profile</li>
 					<li>Course of career</li>
@@ -145,7 +145,7 @@ get_header(); ?>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>Our guarantees</h2>
-				<p>fter 3, 6 and 12 months we contact both the Client and Candidate (Placement Feedback). We make sure that both sides are happy with the cooperation and we react to potential problems. </p>
+				<p>After 3, 6 and 12 months we contact both the Client and Candidate (Placement Feedback). We make sure that both sides are happy with the cooperation and we react to potential problems. </p>
 				<h4>Candidates Guarantee </h4>
 				<p>We also guarantee that the Candidates who, for a reason beyond their control, dissolve their employment contract with the Client during the guarantee period, will receive our help in finding a new job. With this sense of security Candidates are more willing to move to our Clients.</p>
 				<h4>Customer Guarantee</h4>
@@ -183,7 +183,7 @@ get_header(); ?>
 				<h2>We take care of Candidates experience</h2>
 				<p>We make sure that the Candidates has positive experience with your brand:</p>
 				<ul>
-					<li><b>Candidates Feedback:</b> Every Candidate who sends his application will receive feedback from us</li>
+					<li><b>Candidates Feedback:</b> Every Candidate who sends his application will receive feedback from us</li>
 					<li><b>Application Feedback:</b> At least once every 7 days every candidate is informed about the project’s status </li>
 					<li><b>Candidates Guarantee:</b>We guarantee that if they, for a reason beyond their control, dissolve their employment contract with the Client during the guarantee period, they will receive our help in finding a new job. By giving our Candidates this sense of security, we can be sure that we can select from among the best ones.  </li>
 				</ul>

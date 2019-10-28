@@ -37,7 +37,7 @@ get_header(); ?>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>HHG Club </h2>
-				<p>HHG Club has over 3000 professionally-active members, working in key positions in Sales and Marketing (both traditional channels and e-commerce). They are the first people to learn about new recruitment proceses. If you would like to join them, send us your application. We will verify it within 7 days.   
+				<p>HHG Club is a group of over 3000 active professionals, working at key positions in sales and marketing (in both traditional and e-commerce channels). They are the first to learn about new recruitment processes. If you would like to join them, send us your application. We will verify it within 7 days.   
 				</p>
 			</div>
 

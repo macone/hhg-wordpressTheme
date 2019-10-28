@@ -28,11 +28,17 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt">
-					<h2>Oferty Pracy</h2>
-					<ul>
+					<h2 class="pl">Oferty Pracy</h2>
+					<ul class="pl">
 						<li>Sprzedaż</li>
 						<li>Marketing</li>
 						<li>inne</li>
+					</ul>
+					<h2 class="en">Job Offers</h2>
+					<ul class="en">
+						<li>Sales</li>
+						<li>Marketing</li>
+						<li>Other</li>
 					</ul>
 					<a href="<?php echo get_permalink(596); ?>"> <button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 				</div>
@@ -43,9 +49,13 @@ get_header(); ?>
 	<div class="container">
 		<div class="row mt" style="margin-top:150px">
 			<div class="col-md-12 col-lg-6 img-box-txt">
-				<h2>Klub HHG</h2>
-				<p>
+				<h2 class="pl">Klub HHG</h2>
+				<p class="pl">
 				Klub HHG zrzesza ponad 3000 osób aktywnych zawodowo, zajmujących kluczowe stanowiska w obszarze marketingu i sprzedaży (w kanałach tradycyjnych i e-commerce). To oni dowiadują się pierwsi o nowych rekrutacjach. 
+				</p>
+				<h2 class="en">HHG Club</h2>
+				<p class="en">
+				HHG Club is a group of over 3000 active professionals, working at key positions in sales and marketing (in both traditional and e-commerce channels). They are the first to learn about new recruitment processes. 
 				</p>
 				<a href="<?php echo get_permalink(1963); ?>"><button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 			</div>
@@ -65,13 +75,21 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt">
-					<h2>Zasady i wartości</h2>
-					<ul>
+					<h2 class="pl">Zasady i wartości</h2>
+					<ul class="pl">
 						<li>Dostęp do bieżących informacji o rekrutacji</li>
 						<li>Bezpieczeństwo Kandydata </li>
 						<li>Opieka nad Kandydatem w trakcie rekrutacji i po zakończeniu</li>
 						<li>Wsparcie dla kandydatów, u których decyzja o zmianie okazuje się nietrafiona</li>
 						<li>Wspólna ocena współpracy </li>
+					</ul>
+					<h2 class="en">Rules and Values</h2>
+					<ul class="en">
+						<li>Access to current recruitment information</li>
+						<li>Candidate Safety </li>
+						<li>Candidates protection during and after the recruitment process</li>
+						<li>Supporting candidates, whose decision to change jobs proved to be unlucky </li>
+						<li>Joint co-operation evaluation </li>
 					</ul>
 					<a href="<?php echo get_permalink(1961); ?>"><button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 				</div>

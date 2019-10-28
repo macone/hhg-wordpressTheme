@@ -66,7 +66,7 @@ get_header(); ?>
 				<a href="<?php echo get_permalink(1918); ?>"><button class="hhg-btn-outline">Więcej <i class="fas fa-chevron-right"></i></button></a>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt en">
-				<h2>We present an extended file which includes:</h2>
+				<h2>We present an extended file, which includes: </h2>
 				<ul>
 					<li>Psychological profile</li>
 					<li>Career course to date</li>
@@ -132,7 +132,7 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12 col-lg-6">
 				<div class="img-box">
-					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2012/10/550-x-720_1.png" class= "img-box-image" alt="">
+					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2019/10/business-people-day-at-modern-business-office-MDJB457.jpg" class= "img-box-image" alt="">
 				</div>
 			</div>
 		</div>
@@ -161,7 +161,7 @@ get_header(); ?>
 				<h2>We take care of the quality of Candidates’ Experience</h2>
 				<ul>
 					<li>All candidates receive feedback</li>
-					<li>Selected candidates are informed about the project’s status ever couple of days </li>
+					<li>Selected candidates are informed about the project’s status every couple of days </li>
 					<li>We make sure that the Client’s company is properly presented to the candidates</li>
 				</ul>
 				<a href="<?php echo get_permalink(1918); ?>"><button class="hhg-btn-outline">More <i class="fas fa-chevron-right"></i></button></a>

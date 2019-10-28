@@ -91,13 +91,13 @@ get_header(); ?>
 					<li>Czas realizacji: 2 - 4 tygodnie </li>
 					<li>Okres gwarancji: 6 m-cy</li>
 				</ul>
-				<button class="hhg-btn-outline">Sprawdź Bazy HHG <i class="fas fa-chevron-right"></i></button>
+				<a href="<?php echo get_permalink(1922); ?>"><button class="hhg-btn-outline">Sprawdź Bazy HHG <i class="fas fa-chevron-right"></i></button></a>
 			</div>
 
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>Using the HHG Databases</h2>
-				<p>We will select the Candidates which would be most suitable for the client from HHG Databases. We will also conduct interviews with selected candidates and provide the client with files of people we recommend. </p>
+				<p>We will select the most suitable Candidates from the HHG Databases. We will also conduct interviews with selected candidates and provide the client with files of people we recommend. </p>
 				<ul>
 					<li>Completion time: 2 – 4 weeks </li>
 					<li>Guarantee period: 6 months</li>
