@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
 <meta name="keywords" content="Usługi rekrutacyjne, rekrutacja pracowników, Headhunters Group, executive search, ogłoszenia rekrutacyjne, oferty pracy"/>
 	<title><?php if (is_category()) {
     echo 'Category Archive for &quot;';
@@ -172,11 +177,15 @@
 			</div>
     
 	</header>
+	<div class="hhg-wrapper">
+		<a href="<?php bloginfo('template_url'); ?>/"><button><</button></a>
+	</div>
 	<?php if (is_front_page()) {
             ?>
 	<section id="slider-wrapper">
-				<?php include_once(TEMPLATEPATH . '/slider2.php'); ?>
-  	</section><!--#slider-->
+		<?php include_once(TEMPLATEPATH . '/slider2.php'); ?>
+	</section><!--#slider-->
+
 		<?php
         } ?>
 

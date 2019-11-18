@@ -31,13 +31,13 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12 col-lg-6 img-box-txt pl">
 				<h2>Klub HHG </h2>
-				<p>Klub HHG zrzesza ponad 3000 osób aktywnych zawodowo, zajmujących kluczowe stanowiska w obszarze marketingu i sprzedaży (w kanałach tradycyjnych i e-commerce). To oni dowiadują się pierwsi o nowych rekrutacjach. Jeżeli chcesz do nich dołączyć, prześlij nam swoje zgłoszenie. Zweryfikujemy je w ciągu 7 dni.   
+				<p>Klub HHG zrzesza ponad 3000 osób aktywnych zawodowo, zajmujących kluczowe stanowiska w obszarze marketingu i sprzedaży (w kanałach tradycyjnych i e-commerce). To oni dowiadują się pierwsi o nowych rekrutacjach. Jeżeli chcesz do nich dołączyć, prześlij nam swoje zgłoszenie. 
 				</p>
 			</div>
 
 			<div class="col-md-12 col-lg-6 img-box-txt en">
 				<h2>HHG Club </h2>
-				<p>HHG Club is a group of over 3000 active professionals, working at key positions in sales and marketing (in both traditional and e-commerce channels). They are the first to learn about new recruitment processes. If you would like to join them, send us your application. We will verify it within 7 days.   
+				<p>HHG Club is a group of over 3000 active professionals, working at key positions in sales and marketing (in both traditional and e-commerce channels). They are the first to learn about new recruitment processes. If you would like to join them, send us your application.  
 				</p>
 			</div>
 
